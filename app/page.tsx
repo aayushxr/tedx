@@ -9,22 +9,6 @@ import { useEffect } from "react";
 import { toast } from "sonner";
 
 export default function LandingPage() {
-  useEffect(() => {
-    toast(
-      "Click on the images of the Organising Committee Members to know more about them.",
-      {
-        action: (
-          <Link
-            className={buttonVariants({ size: "sm", variant: "geist" })}
-            href={"#team"}
-          >
-            Check it out
-          </Link>
-        ),
-        duration: 15000,
-      }
-    );
-  }, []);
   console.log(
     "%cshush! get away from here!",
     "font-weight: bold; font-size: 50px;color: #FB6376; text-shadow: 3px 3px 0 #FFDCCC , 6px 6px 0 #FCB1A6 , 9px 9px 0 #FB6376 , 12px 12px 0 #AC475C , 15px 15px 0 #AC475C , 18px 18px 0 #5D2A42 , 21px 21px 0 #55263C"
@@ -41,8 +25,8 @@ export default function LandingPage() {
   );
   console.log(
     "%c Made by Aayush Rajagopalan ",
-    "color:white; padding: 2px 4px; border-radius: 4px; background-color: #993bf7",
-    "2024 War of Words Debating Championship, all rights reserved."
+    "color:white; padding: 2px 4px; border-radius: 4px; background-color: #dc2626",
+    "2024 TedxYouth@DPS-MIS, all rights reserved."
   );
   return (
     <>
@@ -60,11 +44,12 @@ export default function LandingPage() {
                     clipPath:
                       "polygon(40.09% 35.86%, 46.02% 35.44%, 18.09% 37.26%, 85.5% 0.1%, 80.7% 2%, 66.66% 37.73%, 54.97% 54.94%, 60.68% 51.62%, 54.79% 32.05%, 12.93% 29.07%, 45.26% 49.38%, 66.98% 29.15%, 61.56% 33.34%, 54.70% 44.44%, 59.93% 40.25%, 66.88% 38.39%)",
                   }}
-                  className="relative left-[calc(50%-2rem)] aspect-[1155/678] w-[38.125rem] -translate-x-1/2 rotate-[20deg] bg-gradient-to-tr from-emerald-400 to-emerald-800 opacity-30 sm:left-[calc(50%-2rem)] sm:w-[72.1875rem]"
+                  className="relative left-[calc(50%-2rem)] aspect-[1155/678] w-[38.125rem] -translate-x-1/2 rotate-[20deg] bg-gradient-to-tr from-red-400 to-red-800 opacity-30 sm:left-[calc(50%-2rem)] sm:w-[72.1875rem]"
                 />
               </div>
-              <h1 className="text-4xl max-w-5xl relative z-50 text-center font-bold leading-snug tracking-tight text-zinc-900 lg:text-4xl lg:leading-tight xl:text-6xl xl:leading-tight dark:text-white">
-                War of Words Debating Championship
+              <h1 className="text-4xl max-w-5xl relative z-50 text-center font-bold leading-snug tracking-tight text-zinc-900 lg:text-4xl lg:leading-tight xl:text-7xl xl:leading-tight dark:text-white">
+                Ideas Worth{" "}
+                <span className="inline text-red-500">Spreading</span>{" "}
               </h1>
               <p className="py-5 text-lg max-w-3xl text-center leading-normal text-zinc-500 lg:text-xl xl:text-xl dark:text-zinc-300">
                 An inter-school debate tournament organised by DPS MIS for all
@@ -77,9 +62,7 @@ export default function LandingPage() {
                     variant: "geist",
                     className: "mt-5",
                   })}
-                  href={
-                    "https://wwdc.calicotab.com"
-                  }
+                  href={"https://wwdc.calicotab.com"}
                   target="_blank"
                 >
                   Results <ArrowRight className="ml-2 h-5 w-5" />
@@ -100,64 +83,6 @@ export default function LandingPage() {
           </div>
         </div>
       </main>
-      <div className="relative z-50">
-        <div className="mx-auto max-w-7xl px-4 md:px-6">
-          <div className="flex flex-col items-center justify-center space-y-4 pb-4 text-center">
-            <div className="space-y-2">
-              <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">
-                Our Leaders
-              </h2>
-            </div>
-          </div>
-        </div>
-        <div className="container  gap-8 flex flex-col flex-wrap justify-center">
-          <div className="relative z-50">
-            <div className="m-4">
-              <div className="flex flex-col items-center justify-center text-center">
-                <Image
-                  src="https://cdn.aayus.me/uploads/Asna20Nafees2019.png"
-                  width={200}
-                  height={200}
-                  alt={"Ms. Asna Nafees"}
-                  className="rounded-full aspect-square h-56 w-56 object-cover"
-                />
-                <div className="text-lg mt-3 font-semibold">
-                  Ms. Asna Nafees
-                </div>
-                <div className="text-md font-medium">Principal</div>
-                <div className="text-md font-medium">
-                  DPS Modern Indian School
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="grid grid-cols-2 gap-x-8">
-            {leaders.map((member, index) => (
-              <div key={index} className="m-4">
-                <div className="flex flex-col items-center justify-center text-center">
-                  <Image
-                    src={member.image}
-                    width={200}
-                    height={200}
-                    alt={member.name}
-                    className="rounded-full aspect-square md:h-56 md:w-56 object-cover"
-                  />
-                  <div className="text-lg mt-3 font-semibold">
-                    {member.name}
-                  </div>
-                  <div className="text-md  max-w-96  font-medium">
-                    {member.position}
-                  </div>
-                  <div className="text-md font-medium">
-                    DPS Modern Indian School
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </div>
-      <Committee />
     </>
   );
 }

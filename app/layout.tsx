@@ -48,7 +48,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <ThemeProvider
           attribute="class"
-          defaultTheme="light"
+          defaultTheme="dark"
           enableSystem
           disableTransitionOnChange
         >
@@ -62,16 +62,16 @@ export default function RootLayout({
           </div>
           <footer className="relative z-20 justify-end container flex flex-col gap-2 sm:flex-row py-6 w-full shrink-0 items-center px-4 md:px-6 ">
             <p className="text-xs text-zinc-800 dark:text-zinc-200 ">
-              2024 DPS MIS Debate Club. All rights reserved.
+              2024 DPS Modern Indian School. All rights reserved.
             </p>
-            <nav className="sm:ml-auto flex gap-4 sm:gap-6 text-zinc-700 dark:text-zinc-300">
+            {/* <nav className="sm:ml-auto flex gap-4 sm:gap-6 text-zinc-700 dark:text-zinc-300">
               <Link
                 className="text-xs hover:underline underline-offset-4"
                 href="https://aayushr.dev"
               >
                 Made by Aayush Rajagopalan
               </Link>
-            </nav>
+            </nav> */}
           </footer>
         </ThemeProvider>
         <Toaster />

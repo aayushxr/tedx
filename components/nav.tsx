@@ -19,7 +19,7 @@ const LandingNavbar = () => {
   useEffect(() => {
     setMounted(true);
   }, []);
- 
+
   if (!mounted) return null;
   return (
     <nav className="sticky h-[4rem] flex items-center inset-x-0 top-0 z-30 w-full bg-transparent backdrop-blur-lg transition-all">
@@ -30,41 +30,48 @@ const LandingNavbar = () => {
             className=" left-8 top-8 z-20 flex items-center text-lg font-bold tracking-tight"
           >
             <span className="flex items-center space-x-2 text-2xl text-emerald-700 dark:text-zinc-100">
-              <span>
-                <Image
-                  src="https://cdn.aayus.me/uploads/dpsmisdebatclub.png"
-                  alt="N"
-                  width="24"
-                  height="24"
-                  className="w-6"
-                />
+              <span className="text-red-600">
+                TED<sup>x</sup>
+                <span className="inline text-xl text-white font-normal">
+                  Youth@DPSMIS
+                </span>
               </span>
-              <span className="">WWDC</span>
             </span>
           </Link>
           <div className="hidden md:block">
             <Menu setActive={setActive}>
-            <MenuItem setActive={setActive} active={active} item="Information">
+              <MenuItem
+                setActive={setActive}
+                active={active}
+                item="Information"
+              >
                 <div className="flex flex-col space-y-4 text-sm">
-                  <HoveredLink href="/about">
-                    About us
-                  </HoveredLink>
+                  <HoveredLink href="/about">About us</HoveredLink>
                   <HoveredLink href="/about/org">
                     Organising Committee
                   </HoveredLink>
-                  <HoveredLink href="/motions">
-                    Motions
-                  </HoveredLink>
+                  <HoveredLink href="/motions">Motions</HoveredLink>
                 </div>
               </MenuItem>
-              <MenuItem
+              <MenuItem setActive={setActive} active={active} item="Speakers">
+                <div className="flex flex-col space-y-4 text-sm">
+                  <HoveredLink href="/references/briefings">
+                    Resources
+                  </HoveredLink>
+                  <HoveredLink href="/references/samples">
+                    Sample Debates
+                  </HoveredLink>
+                  <HoveredLink href="/references">Other References</HoveredLink>
+                </div>
+              </MenuItem>
+              {/* <MenuItem
                 setActive={setActive}
                 active={active}
                 item="Past Editions"
               >
                 <Tabs defaultValue="2023" className="w-full">
                   <TabsList className="w-full">
-                    <TabsTrigger  className="w-1/2" value="2023">
+                    <TabsTrigger className="w-1/2" value="2023">
                       2023
                     </TabsTrigger>
                     <TabsTrigger className="w-1/2" value="2022">
@@ -130,18 +137,7 @@ const LandingNavbar = () => {
                     </div>
                   </TabsContent>
                 </Tabs>
-              </MenuItem>
-              <MenuItem setActive={setActive} active={active} item="References">
-                <div className="flex flex-col space-y-4 text-sm">
-                  <HoveredLink href="/references/briefings">
-                    Resources
-                  </HoveredLink>
-                  <HoveredLink href="/references/samples">
-                    Sample Debates
-                  </HoveredLink>
-                  <HoveredLink href="/references">Other References</HoveredLink>
-                </div>
-              </MenuItem>
+              </MenuItem> */}
             </Menu>
           </div>
 
@@ -166,7 +162,6 @@ const LandingNavbar = () => {
               >
                 <FaFacebook className="h-4 w-4" />
               </Link>
-              <ThemeToggle />
             </div>
             <Contact />
           </div>
