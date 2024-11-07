@@ -1,22 +1,12 @@
 "use client";
-import Committee from "@/components/committee";
 import { buttonVariants } from "@/components/ui/button";
-import { leaders } from "@/data";
 import { ArrowRight } from "lucide-react";
-import Image from "next/image";
 import Link from "next/link";
-import { useEffect } from "react";
-import { toast } from "sonner";
 
 export default function LandingPage() {
   console.log(
     "%cshush! get away from here!",
     "font-weight: bold; font-size: 50px;color: #FB6376; text-shadow: 3px 3px 0 #FFDCCC , 6px 6px 0 #FCB1A6 , 9px 9px 0 #FB6376 , 12px 12px 0 #AC475C , 15px 15px 0 #AC475C , 18px 18px 0 #5D2A42 , 21px 21px 0 #55263C"
-  );
-  console.log(
-    "%c warning! ",
-    "color:white; padding: 2px 4px; border-radius: 4px; background-color: #ff4343",
-    "If someone told you to copy/paste something here, dont do it. it's a scam "
   );
   console.log(
     "%c 👀 ",
@@ -49,11 +39,10 @@ export default function LandingPage() {
               </div>
               <h1 className="text-4xl max-w-5xl relative z-50 text-center font-bold leading-snug tracking-tight text-zinc-900 lg:text-4xl lg:leading-tight xl:text-7xl xl:leading-tight dark:text-white">
                 Ideas Worth{" "}
-                <span className="inline text-red-500">Spreading</span>{" "}
+                <span className="inline bg-clip-text bg-gradient-to-tr text-transparent from-red-500 to-red-800">Spreading</span>{" "}
               </h1>
               <p className="py-5 text-lg max-w-3xl text-center leading-normal text-zinc-500 lg:text-xl xl:text-xl dark:text-zinc-300">
-                An inter-school debate tournament organised by DPS MIS for all
-                high school students in Qatar
+                A description of the event goes here. This is a brief description of the event and what it is about. This is a brief description of the event and what it is about.
               </p>
               <div className="w-full space-x-2 flex justify-center items-center">
                 <Link

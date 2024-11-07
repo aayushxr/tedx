@@ -13,26 +13,26 @@ const inter = Poppins({
   subsets: ["latin"],
 });
 export const metadata: Metadata = {
-  title: "War of Words Debating Championship",
+  title: "TedxYouth@DPSMIS - 2024",
   description:
     "An interschool debate tournament organised by DPS MIS for all high school students in Qatar ",
   openGraph: {
-    title: "War of Words Debating Championship",
+    title: "TedxYouth@DPSMIS - 2024",
     description:
       "An interschool debate tournament organised by DPS MIS for all high school students in Qatar ",
     images: [
       {
-        url: "https://wwdc.aayus.me/opengraph-image.png",
+        url: "https://tedxyouthdpsmis/opengraph-image.png",
       },
     ],
   },
   twitter: {
-    title: "War of Words Debating Championship",
+    title: "TedxYouth@DPSMIS - 2024",
     description:
       "An interschool debate tournament organised by DPS MIS for all high school students in Qatar ",
     images: [
       {
-        url: "https://wwdc.aayus.me/opengraph-image.png",
+        url: "https://tedxyouthdpsmis/opengraph-image.png",
       },
     ],
   },
@@ -60,7 +60,7 @@ export default function RootLayout({
 
             {children}
           </div>
-          <footer className="relative z-20 justify-end container flex flex-col gap-2 sm:flex-row py-6 w-full shrink-0 items-center px-4 md:px-6 ">
+          <footer className="relative z-20 justify-start container flex flex-col gap-2 sm:flex-row py-6 w-full shrink-0 items-center px-4 md:px-6 ">
             <p className="text-xs text-zinc-800 dark:text-zinc-200 ">
               2024 DPS Modern Indian School. All rights reserved.
             </p>
