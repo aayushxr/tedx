@@ -1,22 +1,19 @@
 "use client";
+import Ex from "@/components/ex";
 import { buttonVariants } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 import Link from "next/link";
 
 export default function LandingPage() {
   console.log(
-    "%cshush! get away from here!",
-    "font-weight: bold; font-size: 50px;color: #FB6376; text-shadow: 3px 3px 0 #FFDCCC , 6px 6px 0 #FCB1A6 , 9px 9px 0 #FB6376 , 12px 12px 0 #AC475C , 15px 15px 0 #AC475C , 18px 18px 0 #5D2A42 , 21px 21px 0 #55263C"
+    "%c Made by Aayush Rajagopalan ",
+    "color:white; padding: 2px 4px; border-radius: 4px; background-color: #dc2626",
+    "2024 TedxYouth@DPS-MIS, all rights reserved."
   );
   console.log(
     "%c 👀 ",
     "color:white; padding: 2px 4px; border-radius: 4px; background-color: #3be343",
     "If you know what you are doing, contact me https://aayushr.dev/contact"
-  );
-  console.log(
-    "%c Made by Aayush Rajagopalan ",
-    "color:white; padding: 2px 4px; border-radius: 4px; background-color: #dc2626",
-    "2024 TedxYouth@DPS-MIS, all rights reserved."
   );
   return (
     <>
@@ -37,12 +34,18 @@ export default function LandingPage() {
                   className="relative left-[calc(50%-2rem)] aspect-[1155/678] w-[38.125rem] -translate-x-1/2 rotate-[20deg] bg-gradient-to-tr from-red-400 to-red-800 opacity-30 sm:left-[calc(50%-2rem)] sm:w-[72.1875rem]"
                 />
               </div>
+              <Ex/>
               <h1 className="text-4xl max-w-5xl relative z-50 text-center font-bold leading-snug tracking-tight text-zinc-900 lg:text-4xl lg:leading-tight xl:text-7xl xl:leading-tight dark:text-white">
                 Ideas Worth{" "}
-                <span className="inline bg-clip-text bg-gradient-to-tr text-transparent from-red-500 to-red-800">Spreading</span>{" "}
+                <span className="inline bg-clip-text bg-gradient-to-tr text-transparent from-red-500 to-red-800">
+                  Spreading
+                </span>{" "}
               </h1>
+
               <p className="py-5 text-lg max-w-3xl text-center leading-normal text-zinc-500 lg:text-xl xl:text-xl dark:text-zinc-300">
-                A description of the event goes here. This is a brief description of the event and what it is about. This is a brief description of the event and what it is about.
+                A description of the event goes here. This is a brief
+                description of the event and what it is about. This is a brief
+                description of the event and what it is about.
               </p>
               <div className="w-full space-x-2 flex justify-center items-center">
                 <Link
