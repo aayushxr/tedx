@@ -39,13 +39,13 @@ export default function LandingPage() {
               <h1 className="text-4xl flex gap-x-1 max-w-5xl relative z-50 text-center font-bold leading-snug tracking-tight text-zinc-900 lg:text-4xl lg:leading-tight xl:text-7xl xl:leading-tight dark:text-white">
                 <ScrambleText
                   text="Beyond"
-                  speed={2}
+                  speed={1.3}
                   scrambleIntensity={8}
                 />
                 <ScrambleText
                   text="Algorithms"
                   className="inline ml-3 bg-clip-text bg-gradient-to-tr text-transparent from-red-500 to-red-800"
-                  speed={2}
+                  speed={1.3}
                   scrambleIntensity={8}
                 />
               </h1>
