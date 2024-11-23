@@ -38,14 +38,11 @@ export default function LandingPage() {
               <Ex />
               <h1 className="text-4xl max-w-5xl relative z-50 text-center font-bold leading-snug tracking-tight text-zinc-900 lg:text-4xl lg:leading-tight xl:text-7xl xl:leading-tight dark:text-white">
                 Beyond{" "}
-                <span >
-                  Spreading
-                </span>{" "}
                 <ScrambleText
                   text="Algorithms"
                   className="inline bg-clip-text bg-gradient-to-tr text-transparent from-red-500 to-red-800"
-                  speed={2.5}
-                  scrambleIntensity={4}
+                  speed={2}
+                  scrambleIntensity={8}
                 />
               </h1>
               <p className="py-5 text-lg max-w-3xl text-center leading-normal text-zinc-500 lg:text-xl xl:text-xl dark:text-zinc-300">
