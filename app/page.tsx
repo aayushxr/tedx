@@ -1,5 +1,6 @@
 "use client";
 import Ex from "@/components/ex";
+import ScrambleText from "@/components/scramble";
 import { buttonVariants } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 import Link from "next/link";
@@ -34,14 +35,19 @@ export default function LandingPage() {
                   className="relative left-[calc(50%-2rem)] aspect-[1155/678] w-[38.125rem] -translate-x-1/2 rotate-[20deg] bg-gradient-to-tr from-red-400 to-red-800 opacity-30 sm:left-[calc(50%-2rem)] sm:w-[72.1875rem]"
                 />
               </div>
-              <Ex/>
+              <Ex />
               <h1 className="text-4xl max-w-5xl relative z-50 text-center font-bold leading-snug tracking-tight text-zinc-900 lg:text-4xl lg:leading-tight xl:text-7xl xl:leading-tight dark:text-white">
-                Ideas Worth{" "}
-                <span className="inline bg-clip-text bg-gradient-to-tr text-transparent from-red-500 to-red-800">
+                Beyond{" "}
+                <span >
                   Spreading
                 </span>{" "}
+                <ScrambleText
+                  text="Algorithms"
+                  className="inline bg-clip-text bg-gradient-to-tr text-transparent from-red-500 to-red-800"
+                  speed={2.5}
+                  scrambleIntensity={4}
+                />
               </h1>
-
               <p className="py-5 text-lg max-w-3xl text-center leading-normal text-zinc-500 lg:text-xl xl:text-xl dark:text-zinc-300">
                 A description of the event goes here. This is a brief
                 description of the event and what it is about. This is a brief
