@@ -36,16 +36,20 @@ export default function LandingPage() {
                 />
               </div>
               <Ex />
-              <h1 className="text-4xl max-w-5xl relative z-50 text-center font-bold leading-snug tracking-tight text-zinc-900 lg:text-4xl lg:leading-tight xl:text-7xl xl:leading-tight dark:text-white">
-                Beyond{" "}
+              <h1 className="text-4xl flex gap-x-1 max-w-5xl relative z-50 text-center font-bold leading-snug tracking-tight text-zinc-900 lg:text-4xl lg:leading-tight xl:text-7xl xl:leading-tight dark:text-white">
+                <ScrambleText
+                  text="Beyond"
+                  speed={2}
+                  scrambleIntensity={8}
+                />
                 <ScrambleText
                   text="Algorithms"
-                  className="inline bg-clip-text bg-gradient-to-tr text-transparent from-red-500 to-red-800"
+                  className="inline ml-3 bg-clip-text bg-gradient-to-tr text-transparent from-red-500 to-red-800"
                   speed={2}
                   scrambleIntensity={8}
                 />
               </h1>
-              <p className="py-5 text-lg max-w-3xl text-center leading-normal text-zinc-500 lg:text-xl xl:text-xl dark:text-zinc-300">
+              <p className="pb-5 pt-3 text-lg max-w-3xl text-center leading-normal text-zinc-500 lg:text-xl xl:text-xl dark:text-zinc-300">
                 A description of the event goes here. This is a brief
                 description of the event and what it is about. This is a brief
                 description of the event and what it is about.
@@ -57,10 +61,10 @@ export default function LandingPage() {
                     variant: "geist",
                     className: "mt-5",
                   })}
-                  href={"https://wwdc.calicotab.com"}
+                  href={"https://aayus.me/tedx_register"}
                   target="_blank"
                 >
-                  Results <ArrowRight className="ml-2 h-5 w-5" />
+                  Register <ArrowRight className="ml-2 h-5 w-5" />
                 </Link>
                 <Link
                   className={buttonVariants({
@@ -68,10 +72,10 @@ export default function LandingPage() {
                     variant: "outline",
                     className: "mt-5 ",
                   })}
-                  href="/schedule"
+                  href="/about"
                   target="_blank"
                 >
-                  Schedule <ArrowRight className="ml-2 h-5 w-5" />
+                  Learn More <ArrowRight className="ml-2 h-5 w-5" />
                 </Link>
               </div>
             </div>
