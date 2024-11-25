@@ -20,7 +20,7 @@ const departments = [
   {
     id: 3,
     name: 'Graphic Design',
-    image: '/graphics/png',
+    image: '/graphics.png',
     members: [
       { name: 'Ziyad', role: 'Head of Graphic Design' },
     ],
