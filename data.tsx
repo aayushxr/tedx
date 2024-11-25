@@ -13,8 +13,8 @@ const departments = [
     name: 'Information Technology',
     image: '/it.png',
     members: [
-      { name: 'Aayush Rajagopalan', role: 'Head of IT' },
       { name: 'Aditya Menon', role: 'Head of IT' },
+      { name: 'Aayush Rajagopalan', role: 'Head of IT' },
     ],
   },
   {
