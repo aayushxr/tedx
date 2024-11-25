@@ -36,7 +36,7 @@ export default function DepartmentCard({ department }: DepartmentCardProps) {
   const MobileDrawer = () => (
     <Drawer open={isOpen} onOpenChange={setIsOpen}>
       <DrawerTrigger asChild>
-        <button className="w-full text-left">
+        <button className="w-full text-center">
           <Image
             src={department.image}
             alt={`${department.name} team`}
@@ -44,14 +44,15 @@ export default function DepartmentCard({ department }: DepartmentCardProps) {
             height={200}
             className="w-full h-48 object-cover"
           />
-          <h2 className="text-xl font-semibold p-4">{department.name}</h2>
+          <h2 className="text-xl  font-semibold p-4 font-mono">{department.name}</h2>
         </button>
       </DrawerTrigger>
       <DrawerContent>
         <DrawerHeader>
-          <DrawerTitle>{department.name} Team Members</DrawerTitle>
+          <DrawerTitle>{department.name} Members</DrawerTitle>
         </DrawerHeader>
         <div className="px-4 pb-4">
+          <Image src={department.image} alt={department.name} width={100} height={100} />
           {department.members.map((member, index) => (
             <div key={index} className="mb-4">
               <h3 className="font-semibold">{member.name}</h3>
@@ -66,7 +67,7 @@ export default function DepartmentCard({ department }: DepartmentCardProps) {
   const DesktopDialog = () => (
     <Dialog open={isOpen} onOpenChange={setIsOpen}>
       <DialogTrigger asChild>
-        <button className="w-full text-left">
+        <button className="w-full text-center">
           <Image
             src={department.image}
             alt={`${department.name} team`}
@@ -74,7 +75,7 @@ export default function DepartmentCard({ department }: DepartmentCardProps) {
             height={200}
             className="w-full h-48 object-cover"
           />
-          <h2 className="text-xl font-semibold p-4">{department.name}</h2>
+          <h2 className="text-xl  font-semibold p-4 font-mono">{department.name}</h2>
         </button>
       </DialogTrigger>
       <DialogContent>
@@ -82,6 +83,7 @@ export default function DepartmentCard({ department }: DepartmentCardProps) {
           <DialogTitle>{department.name} Team Members</DialogTitle>
         </DialogHeader>
         <div className="mt-4">
+        <Image src={department.image} alt={department.name} width={100} height={100} />
           {department.members.map((member, index) => (
             <div key={index} className="mb-4">
               <h3 className="font-semibold">{member.name}</h3>

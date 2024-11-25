@@ -2,39 +2,75 @@ const departments = [
   {
     id: 1,
     name: 'Marketing',
-    image: 'https://cdn.aayus.me/wallpaper.png',
+    image: './marketing.png',
     members: [
-      { name: 'John Doe', role: 'Marketing Manager' },
-      { name: 'Jane Smith', role: 'Content Strategist' },
+      { name: 'Aamina Abedi', role: 'Head of Marketing' },
+      { name: 'Solomon Kenneth', role: 'Head of Marketing' },
     ],
   },
   {
     id: 2,
-    name: 'Engineering',
-    image: 'https://cdn.aayus.me/wallpaper.png',
+    name: 'Information Technology',
+    image: './it.png',
     members: [
-      { name: 'Mike Johnson', role: 'Lead Developer' },
-      { name: 'Sarah Brown', role: 'UX Designer' },
+      { name: 'Aayush Rajagopalan', role: 'Head of IT' },
+      { name: 'Aditya Menon', role: 'Head of IT' },
     ],
   },
   {
     id: 3,
-    name: 'Sales',
-    image: 'https://cdn.aayus.me/wallpaper.png',
+    name: 'Graphic Design',
+    image: './graphics/png',
     members: [
-      { name: 'Tom Wilson', role: 'Sales Director' },
-      { name: 'Emily Davis', role: 'Account Executive' },
+      { name: 'Ziyad', role: 'Head of Graphic Design' },
+    ],
+  },
+  {
+    id: 6,
+    name: 'Visual Design',
+    image: './visuals.png',
+    members: [
+      { name: 'Jonah Kirupakaran', role: 'Head of Visual Design' },
+      { name: 'Venus Rinith', role: 'Head of Visual Design' },
     ],
   },
   {
     id: 4,
-    name: 'Human Resources',
-    image: 'https://cdn.aayus.me/wallpaper.png',
+    name: 'Executive Producer',
+    image: './exec.png',
     members: [
-      { name: 'David Lee', role: 'HR Manager' },
-      { name: 'Lisa Chen', role: 'Recruiter' },
+      { name: 'Piyali Mohapatra', role: 'Executive Producer' },
+    ],
+  },
+  {
+    id: 5,
+    name: 'Volunteers',
+    image: './volunteers.png',
+    members: [
+      { name: 'Dev Menon', role: 'Head of Volunteers' },
+    ],
+  },
+  {
+    id: 5,
+    name: 'Finance',
+    image: './finance.png',
+    members: [
+      { name: 'Janavi Rajan', role: 'Head of Finance' },
+      { name: 'Goutham Venkatasubramanian', role: 'Head of Finance' },
     ],
   },
 ]
 
-export default departments;
+const curators = {
+  id: 7,
+  name: 'Curators',
+  image: './curators.png',
+  members: [
+    { name: 'Mehull Girdhar', role: 'Curator' },
+    { name: 'Thejus Aravind', role: 'Curator' },
+    { name: 'Sansriti Sarraf', role: 'Curator' },
+    { name: 'Vyusti Singh', role: 'Curator' },
+  ],
+}
+
+export  {departments, curators};
