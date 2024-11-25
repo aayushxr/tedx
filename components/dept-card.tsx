@@ -54,7 +54,7 @@ export default function DepartmentCard({ department }: DepartmentCardProps) {
             alt={`${department.name} team`}
             width={300}
             height={200}
-            className="w-full h-64 object-scale-down p-4"
+            className="w-full h-48 object-scale-down p-4"
           />
           <h2 className="text-xl  font-semibold p-4 ">{department.name}</h2>
         </button>
@@ -93,7 +93,7 @@ export default function DepartmentCard({ department }: DepartmentCardProps) {
             alt={`${department.name} team`}
             width={300}
             height={200}
-            className="w-full h-48 object-cover"
+            className="w-full h-48 object-scale-down"
           />
           <h2 className="text-xl  font-semibold p-4 font-mono">
             {department.name}

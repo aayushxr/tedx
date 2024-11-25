@@ -29,7 +29,7 @@ export default function About() {
               </div>
             </div>
             <div className="relative flex z-50 items-center justify-center  ">
-              <div className="max-w-8xl pt-8 grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+              <div className="max-w-8xl pt-8 grid gap-4 grid-cols-1  lg:grid-cols-3">
                 <div className="col-span-3">
                 <DepartmentCard department={curators} />
                 </div>
