@@ -37,11 +37,7 @@ export default function LandingPage() {
               </div>
               <Ex />
               <h1 className="text-4xl flex gap-x-1 max-w-5xl relative z-50 text-center font-bold leading-snug tracking-tight text-zinc-900 lg:text-4xl lg:leading-tight xl:text-7xl xl:leading-tight dark:text-white">
-                <ScrambleText
-                  text="Beyond"
-                  speed={1.3}
-                  scrambleIntensity={8}
-                />
+                <ScrambleText text="Beyond" speed={1.3} scrambleIntensity={8} />
                 <ScrambleText
                   text="Algorithms"
                   className="inline ml-3 bg-clip-text bg-gradient-to-tr text-transparent from-red-500 to-red-800"
@@ -50,9 +46,11 @@ export default function LandingPage() {
                 />
               </h1>
               <p className="pb-5 pt-3 text-lg max-w-3xl text-center leading-normal text-zinc-500 lg:text-xl xl:text-xl dark:text-zinc-300">
-                A description of the event goes here. This is a brief
-                description of the event and what it is about. This is a brief
-                description of the event and what it is about.
+                Discover the fusion of AI, sustainability, and human creativity
+                in the 10th Edition of TedxYouth@DPSMIS. This edition celebrates
+                the harmony of logic and intuition, showcasing how innovation
+                transcends precision, driving progress toward a sustainable
+                future
               </p>
               <div className="w-full space-x-2 flex justify-center items-center">
                 <Link
