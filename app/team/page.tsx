@@ -12,7 +12,7 @@ export default function About() {
     <main className="flex-1 flex-col">
       <div className="container h-full flex">
         <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black bg-zinc-300 [mask-image:radial-gradient(ellipse_at_center,transparent_30%,white)]"></div>
-        <div className="flex items-start justify-center z-20  max-w-6xl">
+        <div className="flex items-start justify-center z-20  max-w-[85rem]">
           <div className=" pt-28 ">
             <div className="flex items-center justify-center gap-x-5 max-w-8xl">
               {/* <Image

@@ -2,7 +2,7 @@ const departments = [
   {
     id: 1,
     name: 'Marketing',
-    image: './marketing.png',
+    image: '/marketing.png',
     members: [
       { name: 'Aamina Abedi', role: 'Head of Marketing' },
       { name: 'Solomon Kenneth', role: 'Head of Marketing' },
@@ -11,7 +11,7 @@ const departments = [
   {
     id: 2,
     name: 'Information Technology',
-    image: './it.png',
+    image: '/it.png',
     members: [
       { name: 'Aayush Rajagopalan', role: 'Head of IT' },
       { name: 'Aditya Menon', role: 'Head of IT' },
@@ -20,7 +20,7 @@ const departments = [
   {
     id: 3,
     name: 'Graphic Design',
-    image: './graphics/png',
+    image: '/graphics/png',
     members: [
       { name: 'Ziyad', role: 'Head of Graphic Design' },
     ],
@@ -28,7 +28,7 @@ const departments = [
   {
     id: 6,
     name: 'Visual Design',
-    image: './visuals.png',
+    image: '/visuals.png',
     members: [
       { name: 'Jonah Kirupakaran', role: 'Head of Visual Design' },
       { name: 'Venus Rinith', role: 'Head of Visual Design' },
@@ -37,7 +37,7 @@ const departments = [
   {
     id: 4,
     name: 'Executive Producer',
-    image: './exec.png',
+    image: '/exec.png',
     members: [
       { name: 'Piyali Mohapatra', role: 'Executive Producer' },
     ],
@@ -45,7 +45,7 @@ const departments = [
   {
     id: 5,
     name: 'Volunteers',
-    image: './volunteers.png',
+    image: '/volunteers.png',
     members: [
       { name: 'Dev Menon', role: 'Head of Volunteers' },
     ],
@@ -53,7 +53,7 @@ const departments = [
   {
     id: 5,
     name: 'Finance',
-    image: './finance.png',
+    image: '/finance.png',
     members: [
       { name: 'Janavi Rajan', role: 'Head of Finance' },
       { name: 'Goutham Venkatasubramanian', role: 'Head of Finance' },
@@ -64,7 +64,7 @@ const departments = [
 const curators = {
   id: 7,
   name: 'Curators',
-  image: './curators.png',
+  image: '/curators.png',
   members: [
     { name: 'Mehull Girdhar', role: 'Curator' },
     { name: 'Thejus Aravind', role: 'Curator' },
