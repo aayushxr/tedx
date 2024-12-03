@@ -20,22 +20,12 @@ export const metadata: Metadata = {
     title: "TedxYouth@DPSMIS - 2024",
     description:
       "An interschool debate tournament organised by DPS MIS for all high school students in Qatar ",
-    images: [
-      {
-        url: "https://tedxyouthdpsmis/opengraph-image.png",
-      },
-    ],
   },
   twitter: {
     title: "TedxYouth@DPSMIS - 2024",
     description:
       "An interschool debate tournament organised by DPS MIS for all high school students in Qatar ",
-    images: [
-      {
-        url: "https://tedxyouthdpsmis/opengraph-image.png",
-      },
-    ],
-  },
+  }
 };
 
 export default function RootLayout({
