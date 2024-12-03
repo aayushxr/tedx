@@ -47,104 +47,33 @@ const LandingNavbar = () => {
               >
                 <div className="flex flex-col space-y-4 text-sm">
                   <HoveredLink href="/about">About us</HoveredLink>
-                  <HoveredLink href="/about/org">
-                    Organising Committee
-                  </HoveredLink>
-                  <HoveredLink href="/motions">Motions</HoveredLink>
+                  <HoveredLink href="/about">The Team</HoveredLink>
+                  <HoveredLink href="/about/org">Previous Editions</HoveredLink>
                 </div>
               </MenuItem>
-              <MenuItem setActive={setActive} active={active} item="Speakers">
-                <div className="flex flex-col space-y-4 text-sm">
-                  <HoveredLink href="/references/briefings">
-                    Resources
-                  </HoveredLink>
-                  <HoveredLink href="/references/samples">
-                    Sample Debates
-                  </HoveredLink>
-                  <HoveredLink href="/references">Other References</HoveredLink>
-                </div>
-              </MenuItem>
-              {/* <MenuItem
-                setActive={setActive}
-                active={active}
-                item="Past Editions"
-              >
-                <Tabs defaultValue="2023" className="w-full">
-                  <TabsList className="w-full">
-                    <TabsTrigger className="w-1/2" value="2023">
-                      2023
-                    </TabsTrigger>
-                    <TabsTrigger className="w-1/2" value="2022">
-                      2022
-                    </TabsTrigger>
-                  </TabsList>
-
-                  <TabsContent value="2023">
-                    <div className="  text-sm grid grid-cols-2 gap-10 p-4">
-                      <ProductItem
-                        title="Tournament"
-                        href="/2023/tournament"
-                        src="https://assets.aceternity.com/demos/algochurn.webp"
-                        description="The 2023 edition of the War of the Words Debate Tournament."
-                      />
-                      <ProductItem
-                        title="Motions"
-                        href="/2023/motions"
-                        src="https://assets.aceternity.com/demos/tailwindmasterkit.webp"
-                        description="The motions for the 2023 edition of the War of the Words Debate Tournament."
-                      />
-                      <ProductItem
-                        title="Organising Committee"
-                        href="/2023/org"
-                        src="https://assets.aceternity.com/demos/Screenshot+2024-02-21+at+11.51.31%E2%80%AFPM.png"
-                        description="The Organising Committee for the 2023 edition of the War of the Words Debate Tournament."
-                      />
-                      <ProductItem
-                        title="Core Organising Committee"
-                        href="/2023/org/core"
-                        src="https://assets.aceternity.com/demos/Screenshot+2024-02-21+at+11.47.07%E2%80%AFPM.png"
-                        description="The Core Organising Committee for the 2023 edition of the War of the Words Debate Tournament."
-                      />
-                    </div>
-                  </TabsContent>
-
-                  <TabsContent value="2022">
-                    <div className="  text-sm grid grid-cols-2 gap-10 p-4">
-                      <ProductItem
-                        title="Tournament"
-                        href="/2022/tournament"
-                        src="https://assets.aceternity.com/demos/algochurn.webp"
-                        description="The 2022 edition of the War of the Words Debate Tournament."
-                      />
-                      <ProductItem
-                        title="Motions"
-                        href="/2022/motions"
-                        src="https://assets.aceternity.com/demos/tailwindmasterkit.webp"
-                        description="The motions for the 2022 edition of the War of the Words Debate Tournament."
-                      />
-                      <ProductItem
-                        title="Organising Committee"
-                        href="/2022/org"
-                        src="https://assets.aceternity.com/demos/Screenshot+2024-02-21+at+11.51.31%E2%80%AFPM.png"
-                        description="The Organising Committee for the 2022 edition of the War of the Words Debate Tournament."
-                      />
-                      <ProductItem
-                        title="Core Organising Committee"
-                        href="/2022/org/core"
-                        src="https://assets.aceternity.com/demos/Screenshot+2024-02-21+at+11.47.07%E2%80%AFPM.png"
-                        description="The Core Organising Committee for the 2022 edition of the War of the Words Debate Tournament."
-                      />
-                    </div>
-                  </TabsContent>
-                </Tabs>
-              </MenuItem> */}
+              <Link href="/speakers">Speakers</Link>
+              {/* <Link href="/speakers">
+                <MenuItem setActive={setActive} active={active} item="Speakers">
+                  <div className="flex flex-col space-y-4 text-sm">
+                    <HoveredLink href="/references/briefings">
+                      Resources
+                    </HoveredLink>
+                    <HoveredLink href="/references/samples">
+                      Sample Debates
+                    </HoveredLink>
+                    <HoveredLink href="/references">
+                      Other References
+                    </HoveredLink>
+                  </div>
+                </MenuItem>
+              </Link> */}
             </Menu>
           </div>
 
           <div className="hidden justify-end items-center space-x-4 sm:flex">
             <div className="space-x-1  flex items-center justify-center">
               <Link
-                href="https://aayus.me/wwdc_insta"
+                href="https://aayus.me/tedx_insta"
                 className={buttonVariants({
                   variant: "ghost",
                   size: "sm",
@@ -152,8 +81,7 @@ const LandingNavbar = () => {
               >
                 <FaInstagram className="h-4 w-4" />
               </Link>
-
-              <Link
+              {/* <Link
                 href="https://aayus.me/wwdc_fb"
                 className={buttonVariants({
                   variant: "ghost",
@@ -161,10 +89,22 @@ const LandingNavbar = () => {
                 })}
               >
                 <FaFacebook className="h-4 w-4" />
-              </Link>
+              </Link> */}
             </div>
-            <Contact />
+
+              {/* <Contact /> */}
+              <Link
+                className={buttonVariants({
+                  size: "sm",
+                  variant: "geist",
+                })}
+                href={"https://aayus.me/tedx_register"}
+                target="_blank"
+              >
+                Register <ArrowRight className="ml-2 h-5 w-5" />
+              </Link>{" "}
           </div>
+
           <div className="md:hidden ml-auto">
             <MobileNav />
           </div>
