@@ -1,12 +1,6 @@
 "use client"
-import { buttonVariants } from "@/components/ui/button";
-import Image from "next/image";
-import Link from "next/link";
-import { useEffect } from "react";
-import { toast } from "sonner";
 
 export default function About() {
-
     return (
     <main className="flex-1 flex-col">
       <div className="container h-full flex">

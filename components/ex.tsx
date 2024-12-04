@@ -52,7 +52,7 @@ useEffect(() => {
 let binaryIndex = -1;
 
 return (
-  <div className="min-h-[200px] flex justify-center items-center p-4 ">
+  <div className="min-h-[200px]  flex justify-center items-center p-4 ">
     <style>
       {`
         .twinkle-char {
@@ -60,7 +60,7 @@ return (
         }
       `}
     </style>
-    <pre className="text-red-600 text-xs font-mono whitespace-pre transition-all duration-300 ">
+    <pre className="text-red-600 text-[10px] md:text-xs font-mono whitespace-pre transition-all duration-300 ">
       {asciiArt.split('\n').map((line, index) => (
         <div key={index}>
           {line.split('').map((char, charIndex) => {

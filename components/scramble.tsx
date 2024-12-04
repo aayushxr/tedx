@@ -55,7 +55,7 @@ const ScrambleText: React.FC<ScrambleTextProps> = ({
 
   return (
     <motion.span
-      className={`inline-block font-mono ${className}`}
+      className={`inline-block font-mono  ${className}`}
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 0.5 }}

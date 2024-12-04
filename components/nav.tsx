@@ -29,7 +29,7 @@ const LandingNavbar = () => {
             href="/"
             className=" left-8 top-8 z-20 flex items-center text-lg font-bold tracking-tight"
           >
-            <span className="flex items-center space-x-2 text-2xl text-emerald-700 dark:text-zinc-100">
+            <span className="flex items-center space-x-2 text-2xl  dark:text-zinc-100">
               <span className="text-red-600">
                 TED<sup>x</sup>
                 <span className="inline text-xl text-white font-normal">
@@ -47,11 +47,12 @@ const LandingNavbar = () => {
               >
                 <div className="flex flex-col space-y-4 text-sm">
                   <HoveredLink href="/about">About us</HoveredLink>
-                  <HoveredLink href="/about">The Team</HoveredLink>
-                  <HoveredLink href="/about/org">Previous Editions</HoveredLink>
+                  <HoveredLink href="/team">The Team</HoveredLink>
+                  {/* <HoveredLink href="/editions">Previous Editions</HoveredLink> */}
                 </div>
               </MenuItem>
-              <Link href="/speakers">Speakers</Link>
+              <Link href="/editions">Previous Editions</Link>
+              {/* <Link href="/speakers">Speakers</Link> */}
               {/* <Link href="/speakers">
                 <MenuItem setActive={setActive} active={active} item="Speakers">
                   <div className="flex flex-col space-y-4 text-sm">
@@ -91,23 +92,25 @@ const LandingNavbar = () => {
                 <FaFacebook className="h-4 w-4" />
               </Link> */}
             </div>
+            {/* <Contact /> */}
+            <Link
+              className={buttonVariants({
+                size: "sm",
+                variant: "geist",
+              })}
+              href={"https://aayus.me/tedx_register"}
 
-              {/* <Contact /> */}
-              <Link
-                className={buttonVariants({
-                  size: "sm",
-                  variant: "geist",
-                })}
-                href={"https://aayus.me/tedx_register"}
-                target="_blank"
-              >
-                Register <ArrowRight className="ml-2 h-5 w-5" />
-              </Link>{" "}
+              target="_blank"
+            >
+              Register <ArrowRight className="ml-2 h-5 w-5" />
+            </Link>{" "}
+            <div className="md:hidden flex items-center justify-center ml-auto">
+              <MobileNav />
+            </div>
           </div>
-
-          <div className="md:hidden ml-auto">
-            <MobileNav />
-          </div>
+          <div className="sm:hidden flex items-center justify-center ml-auto">
+              <MobileNav />
+            </div>
         </div>
       </div>
     </nav>

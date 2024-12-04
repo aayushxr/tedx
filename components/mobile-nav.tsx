@@ -32,17 +32,13 @@ const MobileNav = () => {
         <div className="space-y-4 py-4 flex flex-col h-full dark:bg-black dark:text-white">
           <div className="px-3 py-2 flex-1">
             <Link href="/dashboard" className="flex items-center pl-3 mb-8">
-              <span className="flex items-center space-x-2 text-2xl text-emerald-700 dark:text-zinc-100">
-                <span>
-                  <Image
-                    src="https://cdn.aayus.me/uploads/dpsmisdebatclub.png"
-                    alt="N"
-                    width="24"
-                    height="24"
-                    className="w-6"
-                  />
+              <span className="flex items-center space-x-2 text-2xl  dark:text-zinc-100">
+                <span className="font-semibold text-red-600">
+                  TED<sup>x</sup>
+                  <span className="inline text-xl text-white font-normal">
+                    Youth@DPSMIS
+                  </span>
                 </span>
-                <span className="font-bold">WWDC</span>
               </span>
             </Link>
             <div className="space-y-1">
@@ -50,7 +46,7 @@ const MobileNav = () => {
                 <>
                   <div className="space-x-1 flex items-center justify-center">
                     <Link
-                      href="https://aayus.me/wwdc_insta"
+                      href="https://aayus.me/tedx_insta"
                       className={buttonVariants({
                         variant: "ghost",
                         size: "sm",
@@ -59,17 +55,18 @@ const MobileNav = () => {
                       <FaInstagram className="h-4 w-4" />
                     </Link>
 
+                    {/* <ThemeToggle /> */}
+                    {/* <Contact /> */}
                     <Link
-                      href="https://aayus.me/wwdc_fb"
                       className={buttonVariants({
-                        variant: "ghost",
                         size: "sm",
+                        variant: "geist",
                       })}
+                      href={"https://aayus.me/tedx_register"}
+                      target="_blank"
                     >
-                      <FaFacebook className="h-4 w-4" />
+                      Register <ArrowRight className="ml-2 h-5 w-5" />
                     </Link>
-                    <ThemeToggle />
-                    <Contact />
                   </div>
                 </>
               </div>
@@ -80,69 +77,40 @@ const MobileNav = () => {
                 }
               >
                 <div className="flex justify-between items-center flex-1">
-                  <span className="flex">About Us</span>
+                  <span className="flex">About</span>
                 </div>
               </Link>
               <Link
-                href={"/about/org"}
+                href={"/team"}
                 className={
                   "text-sm group flex p-3 w-full justify-start font-medium cursor-pointer hover:text-white hover:bg-white/10 text-zinc-900 dark:text-zinc-300 rounded-lg transition"
                 }
               >
                 <div className="flex justify-between items-center flex-1">
-                  <span className="flex">Organising Committee</span>
+                  <span className="flex">The Team</span>
                 </div>
               </Link>
               <Link
-                href={"/references/briefings"}
+                href={"/editions"}
                 className={
                   "text-sm group flex p-3 w-full justify-start font-medium cursor-pointer hover:text-white hover:bg-white/10 text-zinc-900 dark:text-zinc-300 rounded-lg transition"
                 }
               >
                 <div className="flex justify-between items-center flex-1">
-                  <span className="flex">Resources</span>
+                  <span className="flex">Previous Editions</span>
                 </div>
               </Link>
               <Link
-                href={"/references/samples"}
+                href={"/speakers"}
                 className={
                   "text-sm group flex p-3 w-full justify-start font-medium cursor-pointer hover:text-white hover:bg-white/10 text-zinc-900 dark:text-zinc-300 rounded-lg transition"
                 }
               >
                 <div className="flex justify-between items-center flex-1">
-                  <span className="flex">Sample Debates</span>
+                  <span className="flex">Speakers</span>
                 </div>
               </Link>
-              <Link
-                href={"/references"}
-                className={
-                  "text-sm group flex p-3 w-full justify-start font-medium cursor-pointer hover:text-white hover:bg-white/10 text-zinc-900 dark:text-zinc-300 rounded-lg transition"
-                }
-              >
-                <div className="flex justify-between items-center flex-1">
-                  <span className="flex">Other References</span>
-                </div>
-              </Link>
-              <Link
-                href={"/2023/tournament"}
-                className={
-                  "text-sm group flex p-3 w-full justify-start font-medium cursor-pointer hover:text-white hover:bg-white/10 text-zinc-900 dark:text-zinc-300 rounded-lg transition"
-                }
-              >
-                <div className="flex justify-between items-center flex-1">
-                  <span className="flex">WWDC 2023</span>
-                </div>
-              </Link>
-              <Link
-                href={"/2022/tournament"}
-                className={
-                  "text-sm group flex p-3 w-full justify-start font-medium cursor-pointer hover:text-white hover:bg-white/10 text-zinc-900 dark:text-zinc-300 rounded-lg transition"
-                }
-              >
-                <div className="flex justify-between items-center flex-1">
-                  <span className="flex">WWDC 2022</span>
-                </div>
-              </Link>
+             
             </div>
           </div>
         </div>

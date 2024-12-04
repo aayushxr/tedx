@@ -18,10 +18,10 @@ export default function LandingPage() {
   );
   return (
     <>
-      <main className="justify-center h-[100vh] items-center flex-col">
+      <main className="justify-center md:h-[100vh] items-center flex-col">
         <div className="container h-full items-center justify-center flex">
           <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black bg-zinc-300 [mask-image:radial-gradient(ellipse_at_center,transparent_30%,white)]"></div>
-          <div className="flex items-center justify-center z-20  max-w-6xl">
+          <div className="flex items-center px-5 justify-center z-20  max-w-6xl">
             <div className=" flex flex-col items-center">
               <div
                 aria-hidden="true"
@@ -36,16 +36,16 @@ export default function LandingPage() {
                 />
               </div>
               <Ex />
-              <h1 className="text-4xl flex gap-x-1 max-w-5xl relative z-50 text-center font-bold leading-snug tracking-tight text-zinc-900 lg:text-4xl lg:leading-tight xl:text-7xl xl:leading-tight dark:text-white">
-                <ScrambleText text="Beyond" speed={1.3} scrambleIntensity={8} />
+              <h1 className="text-3xl md:text-4xl px-10 flex gap-x-1 max-w-5xl relative z-50 text-center font-bold leading-snug tracking-tight text-zinc-900 lg:text-4xl lg:leading-tight xl:text-7xl xl:leading-tight dark:text-white">
+                <ScrambleText text="Beyond" speed={1.3} scrambleIntensity={4} />
                 <ScrambleText
                   text="Algorithms"
                   className="inline ml-3 bg-clip-text bg-gradient-to-tr text-transparent from-red-500 to-red-800"
                   speed={1.3}
-                  scrambleIntensity={8}
+                  scrambleIntensity={4}
                 />
               </h1>
-              <p className="pb-5 pt-3 text-lg max-w-3xl text-center leading-normal text-zinc-500 lg:text-xl xl:text-xl dark:text-zinc-300">
+              <p className="pb-2 md:pb-5 px-4 pt-3 text-md md:text-lg max-w-3xl text-center leading-normal text-zinc-500 lg:text-xl xl:text-xl dark:text-zinc-300">
                 Discover the fusion of AI, sustainability, and human creativity
                 in the 10th Edition of TedxYouth@DPSMIS. This edition celebrates
                 the harmony of logic and intuition, showcasing how innovation
