@@ -56,7 +56,9 @@ export default function DepartmentCard({ department }: DepartmentCardProps) {
             height={200}
             className="w-full h-48 object-scale-down p-4"
           />
-          <h2 className="text-xl  font-semibold p-4 ">{department.name}</h2>
+          <h2 className="text-xl font-sans  font-semibold p-4 ">
+            {department.name}
+          </h2>
         </button>
       </DrawerTrigger>
       <DrawerContent>
@@ -95,7 +97,7 @@ export default function DepartmentCard({ department }: DepartmentCardProps) {
             height={200}
             className="w-full h-48 object-scale-down"
           />
-          <h2 className="text-xl  font-semibold p-4 font-mono">
+          <h2 className="text-xl  font-semibold p-4 font-sans">
             {department.name}
           </h2>
         </button>

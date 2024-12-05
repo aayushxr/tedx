@@ -5,11 +5,12 @@ import {
   useTransform,
   motion,
 } from "framer-motion";
+import Image from "next/image";
 import React, { useEffect, useRef, useState } from "react";
 
 interface TimelineEntry {
   title: string;
-  content: React.ReactNode;
+  content: any;
 }
 
 export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
@@ -30,27 +31,21 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
   });
 
   // Adjust the transform to ensure color visibility across more elements
-  const heightTransform = useTransform(
-    scrollYProgress, 
-    [0, 1], 
-    [0, height]
-  );
+  const heightTransform = useTransform(scrollYProgress, [0, 1], [0, height]);
 
   const opacityTransform = useTransform(
-    scrollYProgress, 
-    [0, 0.01, 1, 1], 
+    scrollYProgress,
+    [0, 0.01, 1, 1],
     [0, 1, 1, 1]
   );
 
   return (
-    <div
-      className="w-full"
-      ref={containerRef}
-    >
+    <div className="w-full" ref={containerRef}>
       <div className="max-w-7xl mx-auto pt-20 px-4 md:px-8 lg:px-10">
         <div>
           <h1 className="text-3xl gap-x-3 relative z-50 text-left font-bold leading-snug tracking-tight text-zinc-900 lg:text-4xl lg:leading-tight xl:text-6xl xl:leading-tight dark:text-white">
-            Previous <span className="text-red-600 inline-flex">TEDx</span>Youth@DPSMIS Events
+            Previous <span className="text-red-600 inline-flex">TEDx</span>
+            Youth@DPSMIS Events
           </h1>
         </div>
       </div>
@@ -72,7 +67,26 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
               <h3 className="md:hidden block text-2xl mb-4 text-left font-bold text-neutral-500 dark:text-neutral-200">
                 {item.title}
               </h3>
-              {item.content}{" "}
+              <div>
+                <h3 className="text-xl mb-5 md:text-5xl font-bold text-neutral-500 dark:text-neutral-200 ">
+                  {item.content.title}
+                </h3>
+                <div className="">
+                  <p>{item.content.desc}</p>
+                  <div className="grid grid-cols-2 h-full mt-10 gap-4">
+                    {item.content.images.map((image:string, index:any) => (
+                      <Image
+                        src={image}
+                        alt="image"
+                        width={500}
+                        key={index}                 
+                        height={500}
+                        className="rounded-lg object-cover  md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+                      />
+                    ))}
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         ))}
