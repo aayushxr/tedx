@@ -16,6 +16,7 @@ export default function LandingPage() {
     "color:white; padding: 2px 4px; border-radius: 4px; background-color: #3be343",
     "If you know what you are doing, contact me https://aayushr.dev/contact"
   );
+  
   return (
     <>
       <main className="justify-center md:h-[100vh] items-center flex-col">
@@ -37,11 +38,11 @@ export default function LandingPage() {
               </div>
               <Ex />
               <h1 className="text-3xl md:text-4xl px-10 flex gap-x-1 max-w-5xl relative z-50 text-center font-bold leading-snug tracking-tight text-zinc-900 lg:text-4xl lg:leading-tight xl:text-7xl xl:leading-tight dark:text-white">
-                <ScrambleText text="Beyond" speed={1.3} scrambleIntensity={4} />
+                <ScrambleText text="Beyond" speed={0.5} scrambleIntensity={4} />
                 <ScrambleText
                   text="Algorithms"
                   className="inline ml-3 bg-clip-text bg-gradient-to-tr text-transparent from-red-500 to-red-800"
-                  speed={1.3}
+                  speed={0.5}
                   scrambleIntensity={4}
                 />
               </h1>

@@ -60,7 +60,7 @@ return (
         }
       `}
     </style>
-    <pre className="text-red-600 text-[10px] md:text-xs font-mono whitespace-pre transition-all duration-300 ">
+    <pre className="text-red-600 text-[10px] md:text-xs font-geist whitespace-pre transition-all duration-300 ">
       {asciiArt.split('\n').map((line, index) => (
         <div key={index}>
           {line.split('').map((char, charIndex) => {
