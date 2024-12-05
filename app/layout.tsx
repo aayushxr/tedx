@@ -17,7 +17,7 @@ const inter = Poppins({
   subsets: ["latin"],
 });
 const geist = localFont({
-  src: "./mono.otf",
+  src: "../public/mono.otf",
   variable: "--font-geist",
 });
 export const metadata: Metadata = {
