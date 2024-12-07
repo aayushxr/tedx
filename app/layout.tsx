@@ -20,21 +20,87 @@ const geist = localFont({
   src: "../public/mono.otf",
   variable: "--font-geist",
 });
+
 export const metadata: Metadata = {
-  title: "TedxYouth@DPSMIS - 2024",
+  title: "Beyond Algorithms",
   description:
-    "An interschool debate tournament organised by DPS MIS for all high school students in Qatar ",
+    "The 10th edition of TedxYouth@DPSMIS, celebrating a decade of inspiring ideas and transformative stories that push boundaries and spark change.",
   openGraph: {
-    title: "TedxYouth@DPSMIS - 2024",
+    title: "Beyond Algorithms - TedxYouth@DPSMIS - 2024",
     description:
-      "An interschool debate tournament organised by DPS MIS for all high school students in Qatar ",
+      "The 10th edition of TedxYouth@DPSMIS, celebrating a decade of inspiring ideas and transformative stories that push boundaries and spark change.",
+    url: "https://tedxyouthdpsmis.com",
+    siteName: "TedxYouth@DPSMIS",
+    images: [
+      {
+        url: "https://cdn.aayus.me/tedx/og.png",
+        width: 1200,
+        height: 630,
+        alt: "TedxYouth@DPSMIS - Beyond Algorithms",
+        type: "image/jpeg",
+      },
+    ],
+    type: "website",
+    locale: "en_US",
   },
   twitter: {
-    title: "TedxYouth@DPSMIS - 2024",
+    card: "summary_large_image",
+    title: "Beyond Algorithms - TedxYouth@DPSMIS - 2024",
     description:
-      "An interschool debate tournament organised by DPS MIS for all high school students in Qatar ",
+      "The 10th edition of TedxYouth@DPSMIS, celebrating a decade of inspiring ideas and transformative stories that push boundaries and spark change.",
+    images: [
+      "https://cdn.aayus.me/tedx/og.png",
+    ],
+  },
+  icons: {
+    icon: "/favicon.ico", // Replace with actual favicon path
+    apple: "/favicon.ico", // Replace with actual Apple touch icon path
+    shortcut: "/favicon.ico", // Replace with actual shortcut icon path
+  },
+  themeColor: "#b91c1c",
+  robots: {
+    index: true,
+    follow: true,
+  },
+  alternates: {
+    canonical: "https://tedxyouthdpsmis.com", // Ensure canonical URL for SEO
+    languages: {
+      "en-US": "https://tedxyouthdpsmis.com",
+    },
   },
 };
+
+const jsonLd =
+{
+  "@context": "https://schema.org",
+  "@type": "Event",
+  name: "Beyond Algorithms - TedxYouth@DPSMIS - 2024",
+  description:
+    "The 10th edition of TedxYouth@DPSMIS, celebrating a decade of inspiring ideas and transformative stories.",
+  startDate: "2024-12-15T17:00:00+03:00", // Replace with the event date and time
+  endDate: "2024-12-15T20:00:00+03:00", // Replace with the event date and time
+  location: {
+    "@type": "Place",
+    name: "DPS Modern Indian School",
+    address: {
+      "@type": "PostalAddress",
+      streetAddress: "Near pearl Roundabout",
+      addressLocality: "Al Wakrah",
+      addressRegion: "Qatar",
+      addressCountry: "QA",
+    },
+  },
+  organizer: {
+    "@type": "Organization",
+    name: "DPS Modern Indian School",
+    url: "https://www.dpsmisdoha.com", // Replace with actual school URL
+  },
+  image: [
+    "https://cdn.aayus.me/tedx/og.png",
+  ],
+}
+
+
 
 export default function RootLayout({
   children,
@@ -46,6 +112,10 @@ export default function RootLayout({
       <body
         className={cn("font-sans antialiased", inter.className, geist.variable)}
       >
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
         <ThemeProvider
           attribute="class"
           defaultTheme="dark"
