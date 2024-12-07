@@ -20,7 +20,7 @@ export default function About() {
                   Beyond
                   <span className="text-red-600 inline-flex"> Algorithms</span>
                 </h1>
-                <h1 className="text-xl flex relative z-50 text-center font-normal leading-snug tracking-tight text-zinc-900 lg:text-xl lg:leading-tight xl:text-3xl xl:leading-tight dark:text-white">
+                <h1 className="text-xl relative z-50 text-center font-normal leading-snug tracking-tight text-zinc-900 lg:text-xl lg:leading-tight xl:text-3xl xl:leading-tight dark:text-white">
                   10th Edition of
                   <span className="text-red-600 ml-1 font-bold inline-flex">TEDx</span>
                   Youth@DPSMIS
