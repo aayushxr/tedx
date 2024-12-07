@@ -16,7 +16,16 @@ export default function LandingPage() {
     "color:white; padding: 2px 4px; border-radius: 4px; background-color: #3be343",
     "If you know what you are doing, contact me https://aayushr.dev/contact"
   );
-  
+  console.log(
+    "%c 🤪 ",
+    "color:white; padding: 2px 4px; border-radius: 4px; background-color: #dc2626",
+    "'e' - Aditya Menon, 2024"
+  );
+  console.log(
+    "%c 🥶 ",
+    "color:white; padding: 2px 4px; border-radius: 4px; background-color: #dc2626",
+    "'Life is Roblox' - Aayush Rajagopalan, 2024"
+  );
   return (
     <>
       <main className="justify-center md:h-[100vh] items-center flex-col">
