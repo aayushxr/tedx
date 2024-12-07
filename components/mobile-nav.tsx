@@ -31,7 +31,7 @@ const MobileNav = () => {
         <SheetHeader></SheetHeader>
         <div className="space-y-4 py-4 flex flex-col h-full dark:bg-black dark:text-white">
           <div className="px-3 py-2 flex-1">
-            <Link href="/dashboard" className="flex items-center pl-3 mb-8">
+            <Link href="/" className="flex items-center pl-3 mb-8">
               <span className="flex items-center space-x-2 text-2xl  dark:text-zinc-100">
                 <span className="font-semibold text-red-600">
                   TED<sup>x</sup>
