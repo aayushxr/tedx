@@ -277,4 +277,4 @@ const timeline = [
   },
 ];
 
-export { departments, curators, timeline };
+export { departments, curators, timeline, lead };
