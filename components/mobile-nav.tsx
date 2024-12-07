@@ -100,7 +100,7 @@ const MobileNav = () => {
                   <span className="flex">Previous Editions</span>
                 </div>
               </Link>
-              <Link
+              {/*              <Link
                 href={"/speakers"}
                 className={
                   "text-sm group flex p-3 w-full justify-start font-medium cursor-pointer hover:text-white hover:bg-white/10 text-zinc-900 dark:text-zinc-300 rounded-lg transition"
@@ -110,7 +110,7 @@ const MobileNav = () => {
                   <span className="flex">Speakers</span>
                 </div>
               </Link>
-             
+ */}
             </div>
           </div>
         </div>
