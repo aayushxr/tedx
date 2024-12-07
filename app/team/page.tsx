@@ -1,7 +1,7 @@
 "use client";
 import DepartmentCard from "@/components/dept-card";
 import { buttonVariants } from "@/components/ui/button";
-import { curators, departments } from "@/data";
+import { curators, departments, lead } from "@/data";
 import Image from "next/image";
 import Link from "next/link";
 import { useEffect } from "react";
@@ -30,6 +30,9 @@ export default function About() {
             </div>
             <div className="relative flex z-50 items-center justify-center  ">
               <div className="max-w-8xl pt-8 grid gap-4 grid-cols-2   lg:grid-cols-3">
+              <div className="col-span-2 lg:col-span-3">
+                  <DepartmentCard department={lead} />
+                </div>
                 <div className="col-span-2 lg:col-span-3">
                   <DepartmentCard department={curators} />
                 </div>

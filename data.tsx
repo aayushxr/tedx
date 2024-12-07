@@ -78,6 +78,16 @@ const curators = {
   ],
 };
 
+const lead = {
+  id: 8,
+  name: "Lead Organizer",
+  image: "/lead.png",
+  members: [
+    { name: "Prithwiraj Purkait", role: "Lead Organizer" },
+    { name: "Abhimanyu Gupta", role: "Lead Organizer" },
+  ],
+};
+
 const timeline = [
   {
     title: "2024",
