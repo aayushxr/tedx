@@ -84,7 +84,7 @@ export default function About() {
                 </div>
               </div>
 
-              <div className="container px-4 md:px-6">
+              {/*              <div className="container px-4 md:px-6">
                 <div className="mx-auto grid max-w-5xl items-center gap-6 py-12 lg:grid-cols-2 lg:gap-10">
                   <div>
                     <div className="relative isolate">
@@ -332,7 +332,7 @@ export default function About() {
                     </div>
                   </div>
                 </div>
-              </div>
+              </div>*/}
             </section>
           </div>
         </div>
