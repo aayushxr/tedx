@@ -17,12 +17,12 @@ export default function LandingPage() {
     "If you know what you are doing, contact me https://aayushr.dev/contact"
   );
   console.log(
-    "%c 🤪 ",
+    "%c 🤯 ",
     "color:white; padding: 2px 4px; border-radius: 4px; background-color: #22c55e",
     "'e' - Aditya Menon, 2024"
   );
   console.log(
-    "%c 🥶 ",
+    "%c 🤠 ",
     "color:white; padding: 2px 4px; border-radius: 4px; background-color: #22d3ee",
     "'Life is Roblox' - Aayush Rajagopalan, 2024"
   );
