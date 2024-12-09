@@ -101,7 +101,7 @@ export default function About() {
                         />
                       </div>
                       <Image
-                        src="https://cdn.aayus.me/tedx/speaker2.jpg"
+                        src="https://cdn.aayus.me/tedx/speaker2.png"
                         alt="product preview"
                         width={1920}
                         height={1080}
@@ -162,7 +162,7 @@ Rithwick Varier is a seasoned entrepreneur and technology consultant with over a
                         />
                       </div>
                       <Image
-                        src="https://cdn.aayus.me/tedx/speaker3.jpg"
+                        src="https://cdn.aayus.me/tedx/speaker3.png"
                         alt="product preview"
                         width={1920}
                         height={1080}
@@ -204,7 +204,7 @@ Rithwick Varier is a seasoned entrepreneur and technology consultant with over a
                         />
                       </div>
                       <Image
-                        src="https://cdn.aayus.me/tedx/speaker4.jpg"
+                        src="https://cdn.aayus.me/tedx/speaker4.png"
                         alt="product preview"
                         width={1920}
                         height={1080}
@@ -266,7 +266,7 @@ Before founding Masters&apos; Union, Pratham co-founded Outgrow.co, an interacti
                         />
                       </div>
                       <Image
-                        src="https://cdn.aayus.me/tedx/speaker6.jpg"
+                        src="https://cdn.aayus.me/tedx/speaker6.png"
                         alt="product preview"
                         width={1920}
                         height={1080}

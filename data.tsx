@@ -38,7 +38,10 @@ const departments = [
     id: 4,
     name: "Executive Producer",
     image: "/exec.png",
-    members: [{ name: "Piyali Mohapatra", role: "Executive Producer" }],
+    members: [
+{ name: "Piyali Mohapatra", role: "Executive Producer" },
+{ name: "Edwin Daniel", role: "Executive Producer" }
+],
   },
   {
     id: 5,
