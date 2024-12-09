@@ -232,8 +232,8 @@ Rithwick Varier is a seasoned entrepreneur and technology consultant with over a
                         Pratham Mittal
 </h3>
                       <p className="text-neutral-500 dark:text-neutral-400">
-Pratham Mittal is a dynamic entrepreneur and educator, currently serving as the Founder of Tetr and Masters' Union. Masters' Union is a unique higher education institution where courses are taught by industry leaders from top companies like Morgan Stanley, Tata, StanChart, Google, and more. The institution has successfully placed students in prestigious firms such as McKinsey, BCG, Bain, and Softbank.
-Before founding Masters' Union, Pratham co-founded Outgrow.co, an interactive content platform used by top agencies and Fortune 500 companies. His innovative approach to education and business has made significant impacts in both fields, demonstrating his commitment to bridging the gap between academia and industry.
+Pratham Mittal is a dynamic entrepreneur and educator, currently serving as the Founder of Tetr and Masters&apos; Union. Masters&apos; Union is a unique higher education institution where courses are taught by industry leaders from top companies like Morgan Stanley, Tata, StanChart, Google, and more. The institution has successfully placed students in prestigious firms such as McKinsey, BCG, Bain, and Softbank.
+Before founding Masters&apos; Union, Pratham co-founded Outgrow.co, an interactive content platform used by top agencies and Fortune 500 companies. His innovative approach to education and business has made significant impacts in both fields, demonstrating his commitment to bridging the gap between academia and industry.
                       </p>
                     </div>
                   </div>
