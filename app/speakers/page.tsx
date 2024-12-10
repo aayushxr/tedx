@@ -217,7 +217,7 @@ export default function About() {
                         As the Corporate Strategy Director at Manateq, he leads
                         the development and implementation of strategic
                         initiatives that align with the vision and mission of
-                        Qatar's Economic Zones Company. With over 10 years of
+                        Qatar&apos;s Economic Zones Company. With over 10 years of
                         industry experience, he brings a strong background in
                         strategy, policy, and planning. He has completed a PhD
                         in Tourism Policy at Queen Mary University of London,
