@@ -48,11 +48,11 @@ const LandingNavbar = () => {
                 <div className="flex flex-col space-y-4 text-sm">
                   <HoveredLink href="/about">About us</HoveredLink>
                   <HoveredLink href="/team">The Team</HoveredLink>
-                  {/* <HoveredLink href="/editions">Previous Editions</HoveredLink> */}
+   <HoveredLink href="/editions">Previous Editions</HoveredLink> 
                 </div>
               </MenuItem>
-              <Link href="/editions">Previous Editions</Link>
-              {/* <Link href="/speakers">Speakers</Link> */}
+{/* <Link href="/editions">Previous Editions</Link>*/}
+              <Link href="/speakers">Speakers</Link> 
               {/* <Link href="/speakers">
                 <MenuItem setActive={setActive} active={active} item="Speakers">
                   <div className="flex flex-col space-y-4 text-sm">
