@@ -75,6 +75,8 @@ const jsonLd =
   "@context": "https://schema.org",
   "@type": "Event",
   name: "Beyond Algorithms - TedxYouth@DPSMIS - 2024",
+  eventAttendanceMode: "https://schema.org/OfflineEventAttendanceMode",
+  eventStatus: "https://schema.org/EventScheduled",
   description:
     "The 10th edition of TedxYouth@DPSMIS, celebrating a decade of inspiring ideas and transformative stories.",
   startDate: "2024-12-15T17:00:00+03:00", // Replace with the event date and time

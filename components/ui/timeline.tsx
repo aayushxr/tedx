@@ -43,7 +43,7 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
     <div className="w-full" ref={containerRef}>
       <div className="max-w-7xl mx-auto pt-20 px-4 md:px-8 lg:px-10">
         <div>
-          <h1 className="text-3xl gap-x-3 relative z-50 text-left font-bold leading-snug tracking-tight text-zinc-900 lg:text-4xl lg:leading-tight xl:text-6xl xl:leading-tight dark:text-white">
+          <h1 className="text-3xl gap-x-3 relative  text-left font-bold leading-snug tracking-tight text-zinc-900 lg:text-4xl lg:leading-tight xl:text-6xl xl:leading-tight dark:text-white">
             Previous <span className="text-red-600 inline-flex">TEDx</span>
             Youth@DPSMIS Events
           </h1>
