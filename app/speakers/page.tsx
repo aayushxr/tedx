@@ -61,7 +61,7 @@ export default function About() {
                       </div>
                       <Image
                         src="https://cdn.aayus.me/tedx/speaker1"
-                        alt="product preview"
+                        alt="speaker"
                         width={1920}
                         height={1080}
                         quality={100}
@@ -104,7 +104,7 @@ export default function About() {
                       </div>
                       <Image
                         src="https://cdn.aayus.me/tedx/speaker2.png"
-                        alt="product preview"
+                        alt="speaker"
                         width={1920}
                         height={1080}
                         quality={100}
@@ -189,7 +189,7 @@ export default function About() {
                       </div>
                       <Image
                         src="https://cdn.aayus.me/tedx/speaker3.png"
-                        alt="product preview"
+                        alt="speaker"
                         width={1920}
                         height={1080}
                         quality={100}
@@ -254,7 +254,7 @@ export default function About() {
                       </div>
                       <Image
                         src="https://cdn.aayus.me/tedx/speaker5.png"
-                        alt="product preview"
+                        alt="speaker"
                         width={1920}
                         height={1080}
                         quality={100}
@@ -298,7 +298,7 @@ export default function About() {
                       </div>
                       <Image
                         src="https://cdn.aayus.me/tedx/speaker4.png"
-                        alt="product preview"
+                        alt="speaker"
                         width={1920}
                         height={1080}
                         quality={100}
@@ -346,43 +346,6 @@ export default function About() {
               {/* speaker 6: rtl */}
               <div className="container px-4 md:px-6">
                 <div className="mx-auto grid max-w-5xl items-center gap-6 py-12 lg:grid-cols-2 lg:gap-10">
-                  <div>
-                    <div className="relative isolate">
-                      <div
-                        aria-hidden="true"
-                        className="pointer-events-none absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
-                      >
-                        <div
-                          style={{
-                            clipPath:
-                              "polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)",
-                          }}
-                          className="relative left-[calc(50%-1rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#d6d0cb] to-[#dedbde] opacity-30 sm:left-[calc(50%-1rem)] sm:w-[72.1875rem]"
-                        />
-                      </div>
-                      <Image
-                        src="https://cdn.aayus.me/tedx/speaker6.png"
-                        alt="product preview"
-                        width={1920}
-                        height={1080}
-                        quality={100}
-                        className="rounded-md bg-background shadow-2xl ring-1 ring-gray-900/10"
-                      />
-
-                      <div
-                        aria-hidden="true"
-                        className="pointer-events-none absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
-                      >
-                        <div
-                          style={{
-                            clipPath:
-                              "polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)",
-                          }}
-                          className="relative left-[calc(50%-1rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#25272b] to-[#2a193a] opacity-30 sm:left-[calc(50%-1rem)] sm:w-[72.1875rem]"
-                        />
-                      </div>
-                    </div>
-                  </div>
                   <div className="flex flex-col justify-center space-y-4">
                     <div className="grid gap-1">
                       <h3 className="text-5xl pb-4 font-bold">Aditya Jain</h3>
@@ -405,12 +368,86 @@ export default function About() {
                       </p>
                     </div>
                   </div>
+                  <div>
+                    <div className="relative isolate">
+                      <div
+                        aria-hidden="true"
+                        className="pointer-events-none absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
+                      >
+                        <div
+                          style={{
+                            clipPath:
+                              "polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)",
+                          }}
+                          className="relative left-[calc(50%-1rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#d6d0cb] to-[#dedbde] opacity-30 sm:left-[calc(50%-1rem)] sm:w-[72.1875rem]"
+                        />
+                      </div>
+                      <Image
+                        src="https://cdn.aayus.me/tedx/speaker6.png"
+                        alt="speaker"
+                        width={1920}
+                        height={1080}
+                        quality={100}
+                        className="rounded-md bg-background shadow-2xl ring-1 ring-gray-900/10"
+                      />
+
+                      <div
+                        aria-hidden="true"
+                        className="pointer-events-none absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
+                      >
+                        <div
+                          style={{
+                            clipPath:
+                              "polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)",
+                          }}
+                          className="relative left-[calc(50%-1rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#25272b] to-[#2a193a] opacity-30 sm:left-[calc(50%-1rem)] sm:w-[72.1875rem]"
+                        />
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
 
               {/* speaker 7: ltr */}
               <div className="container px-4 md:px-6">
                 <div className="mx-auto grid max-w-5xl items-center gap-6 py-12 lg:grid-cols-2 lg:gap-10">
+                <div>
+                    <div className="relative isolate">
+                      <div
+                        aria-hidden="true"
+                        className="pointer-events-none absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
+                      >
+                        <div
+                          style={{
+                            clipPath:
+                              "polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)",
+                          }}
+                          className="relative left-[calc(50%-1rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#d9e2ea] to-[#3c4858] opacity-30 sm:left-[calc(50%-1rem)] sm:w-[72.1875rem]"
+                        />
+                      </div>
+                      <Image
+                        src="https://cdn.aayus.me/tedx/speaker7.png"
+                        alt="speaker"
+                        width={1920}
+                        height={1080}
+                        quality={100}
+                        className="rounded-md bg-background shadow-2xl ring-1 ring-gray-900/10"
+                      />
+
+                      <div
+                        aria-hidden="true"
+                        className="pointer-events-none absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
+                      >
+                        <div
+                          style={{
+                            clipPath:
+                              "polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)",
+                          }}
+                          className="relative left-[calc(50%-1rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#dab29d] to-[#e7e9fb] opacity-30 sm:left-[calc(50%-1rem)] sm:w-[72.1875rem]"
+                        />
+                      </div>
+                    </div>
+                  </div>
                   <div className="flex flex-col justify-center space-y-4">
                     <div className="grid gap-1">
                       <h3 className="text-5xl pb-4 font-bold">
@@ -436,43 +473,7 @@ export default function About() {
                       </p>
                     </div>
                   </div>
-                  <div>
-                    <div className="relative isolate">
-                      <div
-                        aria-hidden="true"
-                        className="pointer-events-none absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
-                      >
-                        <div
-                          style={{
-                            clipPath:
-                              "polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)",
-                          }}
-                          className="relative left-[calc(50%-1rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#d9e2ea] to-[#3c4858] opacity-30 sm:left-[calc(50%-1rem)] sm:w-[72.1875rem]"
-                        />
-                      </div>
-                      <Image
-                        src="https://cdn.aayus.me/tedx/speaker7.png"
-                        alt="product preview"
-                        width={1920}
-                        height={1080}
-                        quality={100}
-                        className="rounded-md bg-background shadow-2xl ring-1 ring-gray-900/10"
-                      />
-
-                      <div
-                        aria-hidden="true"
-                        className="pointer-events-none absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
-                      >
-                        <div
-                          style={{
-                            clipPath:
-                              "polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)",
-                          }}
-                          className="relative left-[calc(50%-1rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#dab29d] to-[#e7e9fb] opacity-30 sm:left-[calc(50%-1rem)] sm:w-[72.1875rem]"
-                        />
-                      </div>
-                    </div>
-                  </div>
+                  
 
                 </div>
               </div>
