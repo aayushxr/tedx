@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Inter, Merriweather, Poppins } from "next/font/google";
-import "./globals.css";
+import "../globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 import { Suspense } from "react";
 import { VercelToolbar } from "@vercel/toolbar/next";
