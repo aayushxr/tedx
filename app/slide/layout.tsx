@@ -83,7 +83,7 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           <div
-            className="flex font-sans flex-col bg-zinc-100 dark:bg-black text-black dark:text-white h-full min-h-screen dark:bg-dot-white/[0.2] bg-dot-black/[0.2] w-full rounded-md  
+            className="flex font-sans flex-col bg-zinc-100 dark:bg-black text-black dark:text-white h-full min-h-screen dark:bg-dot-white/[0.5] bg-dot-black/[0.9] w-full rounded-md  
     items-center   bg-white/[0.96] dark:bg-black/[0.96] antialiased  relative overflow-hidden"
           >
 
