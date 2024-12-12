@@ -13,7 +13,7 @@ const inter = Poppins({
   subsets: ["latin"],
 });
 const geist = localFont({
-  src: "../../public/mono.otf",
+  src: "/public/mono.otf",
   variable: "--font-geist",
 });
 
