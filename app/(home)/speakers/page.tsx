@@ -341,76 +341,34 @@ export default function About() {
                 </div>
               </div>
 
-             
-
-              {/* speaker 6: rtl */}
               <div className="container px-4 md:px-6">
                 <div className="mx-auto grid max-w-5xl items-center gap-6 py-12 lg:grid-cols-2 lg:gap-10">
-                  <div className="flex flex-col justify-center space-y-4">
+                <div className="flex flex-col justify-center space-y-4">
                     <div className="grid gap-1">
-                      <h3 className="text-5xl pb-4 font-bold">Aditya Jain</h3>
+                      <h3 className="text-5xl pb-4 font-bold">
+                        Mohammed Al-Qassabi
+                      </h3>
                       <p className="text-neutral-500 dark:text-neutral-400">
-                        Aditya Jain is a dynamic student leader, author, and
-                        aspiring economist with a passion for global economic
-                        frameworks and policymaking. A four-time presenter at
-                        the Qatar Leadership Conference (QLC) and Deputy
-                        Secretary General at MSMUN and THIMUN, he has showcased
-                        exceptional leadership and public speaking skills.
-                        During the pandemic, Aditya authored the science fiction
-                        novel Miles Away from Home, reflecting his creativity
-                        and resilience. As Head Boy, he led impactful
-                        initiatives to foster collaboration and excellence,
-                        while excelling in sports by representing his school in
-                        cricket and tennis. With multiple ‘All-Rounder’ and
-                        ‘Subject Topper’ awards to his credit, Aditya brings his
-                        inspiring journey of leadership, perseverance, and
-                        innovation to the TEDx stage.
+                        Mohammed Al-Qassabi is a pioneering innovator, youth
+                        advocate, and cybersecurity specialist from Qatar. He
+                        graduated with Honors in Information Systems from
+                        Carnegie Mellon University in Qatar and is currently
+                        pursuing a Master’s in Artificial Intelligence and
+                        Cybersecurity at the University of Doha for Science and
+                        Technology. Mohammed is the inventor of OPAS, a
+                        groundbreaking AI-based system that enhances fairness
+                        and accuracy in football. As the Head of the Robotics
+                        and AI Department at Qatar Scientific Club, Mohammed
+                        mentors young innovators and inspires future leaders. He
+                        has won numerous prestigious awards, including
+                        recognition as one of the top Arab inventors in Stars of
+                        Science. Mohammed’s journey is a testament to
+                        perseverance, creativity, and the power of innovation to
+                        drive change.
                       </p>
                     </div>
                   </div>
-                  <div>
-                    <div className="relative isolate">
-                      <div
-                        aria-hidden="true"
-                        className="pointer-events-none absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
-                      >
-                        <div
-                          style={{
-                            clipPath:
-                              "polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)",
-                          }}
-                          className="relative left-[calc(50%-1rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#d6d0cb] to-[#dedbde] opacity-30 sm:left-[calc(50%-1rem)] sm:w-[72.1875rem]"
-                        />
-                      </div>
-                      <Image
-                        src="https://cdn.aayus.me/tedx/speaker6.png"
-                        alt="speaker"
-                        width={1920}
-                        height={1080}
-                        quality={100}
-                        className="rounded-md bg-background shadow-2xl ring-1 ring-gray-900/10"
-                      />
-
-                      <div
-                        aria-hidden="true"
-                        className="pointer-events-none absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
-                      >
-                        <div
-                          style={{
-                            clipPath:
-                              "polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)",
-                          }}
-                          className="relative left-[calc(50%-1rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#25272b] to-[#2a193a] opacity-30 sm:left-[calc(50%-1rem)] sm:w-[72.1875rem]"
-                        />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              {/* speaker 7: ltr */}
-              <div className="container px-4 md:px-6">
-                <div className="mx-auto grid max-w-5xl items-center gap-6 py-12 lg:grid-cols-2 lg:gap-10">
+                  
                 <div>
                     <div className="relative isolate">
                       <div
@@ -448,35 +406,79 @@ export default function About() {
                       </div>
                     </div>
                   </div>
-                  <div className="flex flex-col justify-center space-y-4">
-                    <div className="grid gap-1">
-                      <h3 className="text-5xl pb-4 font-bold">
-                        Mohammed Al-Qassabi
-                      </h3>
-                      <p className="text-neutral-500 dark:text-neutral-400">
-                        Mohammed Al-Qassabi is a pioneering innovator, youth
-                        advocate, and cybersecurity specialist from Qatar. He
-                        graduated with Honors in Information Systems from
-                        Carnegie Mellon University in Qatar and is currently
-                        pursuing a Master’s in Artificial Intelligence and
-                        Cybersecurity at the University of Doha for Science and
-                        Technology. Mohammed is the inventor of OPAS, a
-                        groundbreaking AI-based system that enhances fairness
-                        and accuracy in football. As the Head of the Robotics
-                        and AI Department at Qatar Scientific Club, Mohammed
-                        mentors young innovators and inspires future leaders. He
-                        has won numerous prestigious awards, including
-                        recognition as one of the top Arab inventors in Stars of
-                        Science. Mohammed’s journey is a testament to
-                        perseverance, creativity, and the power of innovation to
-                        drive change.
-                      </p>
-                    </div>
-                  </div>
-                  
+                
 
                 </div>
               </div>
+
+              {/* speaker 6: rtl */}
+              <div className="container px-4 md:px-6">
+                <div className="mx-auto grid max-w-5xl items-center gap-6 py-12 lg:grid-cols-2 lg:gap-10">
+                <div>
+                    <div className="relative isolate">
+                      <div
+                        aria-hidden="true"
+                        className="pointer-events-none absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
+                      >
+                        <div
+                          style={{
+                            clipPath:
+                              "polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)",
+                          }}
+                          className="relative left-[calc(50%-1rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#d6d0cb] to-[#dedbde] opacity-30 sm:left-[calc(50%-1rem)] sm:w-[72.1875rem]"
+                        />
+                      </div>
+                      <Image
+                        src="https://cdn.aayus.me/tedx/speaker6.png"
+                        alt="speaker"
+                        width={1920}
+                        height={1080}
+                        quality={100}
+                        className="rounded-md bg-background shadow-2xl ring-1 ring-gray-900/10"
+                      />
+
+                      <div
+                        aria-hidden="true"
+                        className="pointer-events-none absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
+                      >
+                        <div
+                          style={{
+                            clipPath:
+                              "polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)",
+                          }}
+                          className="relative left-[calc(50%-1rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#25272b] to-[#2a193a] opacity-30 sm:left-[calc(50%-1rem)] sm:w-[72.1875rem]"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="flex flex-col justify-center space-y-4">
+                    <div className="grid gap-1">
+                      <h3 className="text-5xl pb-4 font-bold">Aditya Jain</h3>
+                      <p className="text-neutral-500 dark:text-neutral-400">
+                        Aditya Jain is a dynamic student leader, author, and
+                        aspiring economist with a passion for global economic
+                        frameworks and policymaking. A four-time presenter at
+                        the Qatar Leadership Conference (QLC) and Deputy
+                        Secretary General at MSMUN and THIMUN, he has showcased
+                        exceptional leadership and public speaking skills.
+                        During the pandemic, Aditya authored the science fiction
+                        novel Miles Away from Home, reflecting his creativity
+                        and resilience. As Head Boy, he led impactful
+                        initiatives to foster collaboration and excellence,
+                        while excelling in sports by representing his school in
+                        cricket and tennis. With multiple ‘All-Rounder’ and
+                        ‘Subject Topper’ awards to his credit, Aditya brings his
+                        inspiring journey of leadership, perseverance, and
+                        innovation to the TEDx stage.
+                      </p>
+                    </div>
+                  </div>
+                
+                </div>
+              </div>
+
+              {/* speaker 7: ltr */}
+             
 
             </section>
           </div>
