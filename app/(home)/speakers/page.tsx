@@ -296,14 +296,14 @@ export default function About() {
                           className="relative left-[calc(50%-1rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#d6d0cb] to-[#dedbde] opacity-30 sm:left-[calc(50%-1rem)] sm:w-[72.1875rem]"
                         />
                       </div>
-                      <Image
+                      {/* <Image
                         src="https://cdn.aayus.me/tedx/speaker4.png"
                         alt="speaker"
                         width={1920}
                         height={1080}
                         quality={100}
                         className="rounded-md bg-background shadow-2xl ring-1 ring-gray-900/10"
-                      />
+                      /> */}
 
                       <div
                         aria-hidden="true"
@@ -322,7 +322,7 @@ export default function About() {
                   <div className="flex flex-col justify-center space-y-4">
                     <div className="grid gap-1">
                       <h3 className="text-5xl pb-4 font-bold">Ali Al-Naama</h3>
-                      <p className="text-neutral-500 dark:text-neutral-400">
+                      {/* <p className="text-neutral-500 dark:text-neutral-400">
                         As the Corporate Strategy Director at Manateq, he leads
                         the development and implementation of strategic
                         initiatives that align with the vision and mission of
@@ -335,7 +335,7 @@ export default function About() {
                         committed to creating innovative and inclusive solutions
                         that drive economic, social, and industrial
                         sustainability in Qatar and the region{" "}
-                      </p>
+                      </p> */}
                     </div>
                   </div>
                 </div>
