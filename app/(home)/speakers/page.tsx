@@ -159,14 +159,14 @@ export default function About() {
                           className="relative left-[calc(50%-1rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#d6d0cb] to-[#dedbde] opacity-30 sm:left-[calc(50%-1rem)] sm:w-[72.1875rem]"
                         />
                       </div>
-                      {/* <Image
+                      <Image
                         src="https://cdn.aayus.me/tedx/speaker4.png"
                         alt="speaker"
                         width={1920}
                         height={1080}
                         quality={100}
                         className="rounded-md bg-background shadow-2xl ring-1 ring-gray-900/10"
-                      /> */}
+                      />
 
                       <div
                         aria-hidden="true"
@@ -185,20 +185,11 @@ export default function About() {
                   <div className="flex flex-col justify-center space-y-4">
                     <div className="grid gap-1">
                       <h3 className="text-5xl pb-4 font-bold">Ali Al-Naama</h3>
-                      {/* <p className="text-neutral-500 dark:text-neutral-400">
-                        As the Corporate Strategy Director at Manateq, he leads
-                        the development and implementation of strategic
-                        initiatives that align with the vision and mission of
-                        Qatar&apos;s Economic Zones Company. With over 10 years of
-                        industry experience, he brings a strong background in
-                        strategy, policy, and planning. He has completed a PhD
-                        in Tourism Policy at Queen Mary University of London,
-                        where his research focused on sustainable consumer
-                        journeys and their impact on the tourism sector. He is
-                        committed to creating innovative and inclusive solutions
-                        that drive economic, social, and industrial
-                        sustainability in Qatar and the region{" "}
-                      </p> */}
+                      <p className="text-neutral-500 dark:text-neutral-400">
+                        Ali Al-Naama is an author who grew up in Qatar and the United Kingdom. His passion for writing was triggered at a very young age while shadowing his grandfather “Abdulla Hussain Al-Naama” a pioneer of the written media in Qatar and establisher of the very first magazine “Al-Ouroba” and the first newspaper “Al-Arab” in the country. Ali’s passion for travel had led him to academically invest in exploring the knowledge and business of tourism and sustainable destination development with having a specialized degree from The George Washington University in Washington DC. Ali is now a PhD researcher at the Queen Mary University or London, the Corporate Strategy Director at Manateq, and the CEO of the 72 ink corporation.
+
+                        Diving into a more creative mindset and forming a fictional universe that allows readers to explore is what interests Ali to start his novel-writing journey. His enthusiasm for storytelling had enabled him to create imaginary worlds and commit to covey valuable messages through his writings. Ali has published &apos;Circus of the Greats&apos; through Hamad Bin Khalifa University Press and is preparing to launch his next work, &apos;The Scenarist,&apos; with the same publisher.
+                      </p>
                     </div>
                   </div>
                 </div>
