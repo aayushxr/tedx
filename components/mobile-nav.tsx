@@ -7,14 +7,11 @@ import {
   SheetHeader,
   SheetTrigger,
 } from "./ui/sheet";
-import { useState } from "react";
 import Link from "next/link";
 import { FaInstagram } from "react-icons/fa";
 import { buttonVariants } from "./ui/button";
 
 const MobileNav = () => {
-  const [active, setActive] = useState<string | null>(null);
-
   return (
     <Sheet>
       <SheetTrigger>
@@ -48,17 +45,15 @@ const MobileNav = () => {
                       <FaInstagram className="h-4 w-4" />
                     </Link>
 
-                    {/* <ThemeToggle /> */}
-                    {/* <Contact /> */}
                     <Link
                       className={buttonVariants({
                         size: "sm",
                         variant: "geist",
                       })}
-                      href={"https://aayus.me/tedx_register"}
+                      href={"/gallery"}
                       target="_blank"
                     >
-                      Register <ArrowRight className="ml-2 h-5 w-5" />
+                      Gallery <ArrowRight className="ml-2 h-5 w-5" />
                     </Link>
                   </div>
                 </>

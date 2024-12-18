@@ -67,11 +67,11 @@ const LandingNavbar = () => {
                 size: "sm",
                 variant: "geist",
               })}
-              href={"https://aayus.me/tedx_register"}
+              href={"/gallery"}
 
               target="_blank"
             >
-              Register <ArrowRight className="ml-2 h-5 w-5" />
+              Gallery <ArrowRight className="ml-2 h-5 w-5" />
             </Link>{" "}
             <div className="md:hidden flex items-center justify-center ml-auto">
               <MobileNav />
