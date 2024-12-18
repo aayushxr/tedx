@@ -6,6 +6,7 @@
 import Ex from "@/components/ex";
 import RotatingScrambleText from "@/components/ro-scramble";
 import ScrambleText from "@/components/scramble";
+import { Spotlight } from "@/components/spotlight";
 import Image from "next/image";
 import { useEffect } from "react";
 
@@ -17,6 +18,7 @@ export default function LandingPage() {
         <div className="container h-full items-center justify-center flex">
           <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black bg-zinc-300 [mask-image:radial-gradient(ellipse_at_center,transparent_30%,white)]"></div>
           <div className="flex items-center px-5 justify-center z-20  max-w-6xl">
+           <Spotlight />
             <div className=" flex flex-col items-center">
               <div
                 aria-hidden="true"
