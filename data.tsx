@@ -84,7 +84,7 @@ const curators = {
 const lead = {
   id: 8,
   name: "Lead Organizer",
-  image: "/lead.png",
+  image: "/lead-org.png",
   members: [
     { name: "Prithwiraj Purkait", role: "Lead Organizer" },
     { name: "Abhimanyu Gupta", role: "Lead Organizer" },
