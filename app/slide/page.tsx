@@ -1,3 +1,7 @@
+// This Page was displayed on stage during the entire event
+// https://tedxyouthdpsmis.com/slide
+
+
 "use client";
 import Ex from "@/components/ex";
 import RotatingScrambleText from "@/components/ro-scramble";

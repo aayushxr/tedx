@@ -8,13 +8,6 @@ export default function About() {
         <div className="flex items-start justify-center z-20  max-w-6xl">
           <div className=" pt-12 md:pt-28 ">
             <div className="flex items-center justify-center gap-x-5 max-w-4xl">
-              {/* <Image
-                src="https://cdn.aayus.me/uploads/dpsmisdebatclub.png"
-                alt="DPS Modern Indian School Debate Club"
-                height={100}
-                width={100}
-                className="aspect-square"
-              /> */}
               <div className="flex flex-col gap-2 items-center justify-center">
                 <h1 className="text-3xl sm:text-5xl flex gap-x-3 relative z-50 text-center font-bold font-geist leading-snug tracking-tight text-zinc-900 lg:text-4xl lg:leading-tight xl:text-7xl xl:leading-tight dark:text-white">
                   Beyond

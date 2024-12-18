@@ -1,15 +1,18 @@
+// The Layout is where the dotted background, navbar, and footer are defined. 
+// Analytics and Toaster components are also included here.
+
+
 import type { Metadata } from "next";
-import { Inter, Merriweather, Poppins } from "next/font/google";
+import { Poppins } from "next/font/google";
 import "../globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
-import { Suspense } from "react";
-import { VercelToolbar } from "@vercel/toolbar/next";
 import LandingNavbar from "@/components/nav";
-import Link from "next/link";
 import { Toaster } from "@/components/ui/sonner";
 import { Analytics } from "@vercel/analytics/react";
 import { cn } from "@/lib/utils";
 import localFont from "next/font/local";
+
+// Import the fonts
 
 const inter = Poppins({
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
@@ -20,6 +23,10 @@ const geist = localFont({
   src: "../../public/mono.otf",
   variable: "--font-geist",
 });
+
+
+// Define the metadata for the site
+// This is used for SEO and social media sharing
 
 export const metadata: Metadata = {
   title: "Beyond Algorithms",
@@ -53,9 +60,9 @@ export const metadata: Metadata = {
     ],
   },
   icons: {
-    icon: "/favicon.ico", // Replace with actual favicon path
-    apple: "/favicon.ico", // Replace with actual Apple touch icon path
-    shortcut: "/favicon.ico", // Replace with actual shortcut icon path
+    icon: "/favicon.ico",
+    apple: "/favicon.ico",
+    shortcut: "/favicon.ico",
   },
   themeColor: "#b91c1c",
   robots: {
@@ -63,12 +70,16 @@ export const metadata: Metadata = {
     follow: true,
   },
   alternates: {
-    canonical: "https://tedxyouthdpsmis.com", // Ensure canonical URL for SEO
+    canonical: "https://tedxyouthdpsmis.com",
     languages: {
       "en-US": "https://tedxyouthdpsmis.com",
     },
   },
 };
+
+// Define the JSON-LD schema for the event
+// This is used for event schema markup to show up in Google Events 
+// https://developers.google.com/search/docs/appearance/structured-data/event
 
 const jsonLd =
 {
@@ -118,12 +129,16 @@ export default function RootLayout({
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
+        {/*  The Theme is set to dark by default with no way to change it. 
+             To test it in light mode, one can change the class of the html
+              tag to `light` */}
         <ThemeProvider
           attribute="class"
           defaultTheme="dark"
           enableSystem
           disableTransitionOnChange
         >
+          {/* The Dot Background with the fade to the black background */}
           <div
             className="flex font-sans flex-col bg-zinc-100 dark:bg-black text-black dark:text-white h-full min-h-screen dark:bg-dot-white/[0.2] bg-dot-black/[0.2] w-full rounded-md  
     items-center   bg-white/[0.96] dark:bg-black/[0.96] antialiased  relative overflow-hidden"
@@ -135,14 +150,6 @@ export default function RootLayout({
               <p className="text-xs text-zinc-800 dark:text-zinc-200 ">
                 2024 DPS Modern Indian School. All rights reserved.
               </p>
-              {/* <nav className="sm:ml-auto flex gap-4 sm:gap-6 text-zinc-700 dark:text-zinc-300">
-              <Link
-                className="text-xs hover:underline underline-offset-4"
-                href="https://aayushr.dev"
-              >
-                Made by Aayush Rajagopalan
-              </Link>
-            </nav> */}
             </footer>
           </div>
         </ThemeProvider>

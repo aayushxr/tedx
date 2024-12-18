@@ -1,6 +1,9 @@
+// Timeline component is used to display the previous events of TEDxYouth@DPSMIS.
+// Uses framer-motion for animations and tailwindcss for styling.
+
 "use client";
+
 import {
-  useMotionValueEvent,
   useScroll,
   useTransform,
   motion,

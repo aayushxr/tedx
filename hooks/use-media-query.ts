@@ -1,3 +1,6 @@
+// Usage: const isMobile = useMediaQuery('(max-width: 768px)')
+// Description: A hook to check if the screen size matches the media query
+
 import { useState, useEffect } from 'react'
 
 export function useMediaQuery(query: string): boolean {

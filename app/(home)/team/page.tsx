@@ -1,11 +1,5 @@
-"use client";
 import DepartmentCard from "@/components/dept-card";
-import { buttonVariants } from "@/components/ui/button";
 import { curators, departments, lead } from "@/data";
-import Image from "next/image";
-import Link from "next/link";
-import { useEffect } from "react";
-import { toast } from "sonner";
 
 export default function About() {
   return (
@@ -15,13 +9,6 @@ export default function About() {
         <div className="flex items-start justify-center z-20  max-w-[85rem]">
           <div className=" pt-10 md:pt-24 ">
             <div className="flex items-center justify-center gap-x-5 max-w-8xl">
-              {/* <Image
-                src="https://cdn.aayus.me/uploads/dpsmisdebatclub.png"
-                alt="DPS Modern Indian School Debate Club"
-                height={100}
-                width={100}
-                className="aspect-square"
-              /> */}
               <div>
                 <h1 className="text-5xl gap-x-3 relative z-50 text-left font-bold leading-snug tracking-tight text-zinc-900 lg:text-4xl lg:leading-tight xl:text-6xl xl:leading-tight dark:text-white">
                   Our <span className="text-red-600 inline-flex"> Team</span>
@@ -29,8 +16,8 @@ export default function About() {
               </div>
             </div>
             <div className="relative flex z-50 items-center justify-center  ">
-              <div className="max-w-8xl pt-8 grid gap-4 grid-cols-2   lg:grid-cols-3">
-              <div className="col-span-2 lg:col-span-3">
+              <div className="max-w-8xl pt-8 grid gap-4 grid-cols-2 lg:grid-cols-3">
+                <div className="col-span-2 lg:col-span-3">
                   <DepartmentCard department={lead} />
                 </div>
                 <div className="col-span-2 lg:col-span-3">

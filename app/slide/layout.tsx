@@ -1,3 +1,5 @@
+// A different layout is needed for the slides, as they do not have a navbar or footer
+
 import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
 import "../globals.css";

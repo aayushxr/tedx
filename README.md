@@ -1,7 +1,7 @@
-tedx 2024
+# The Website for the 10th Edition of TEDxYouth@DPSMIS
 
-this isnt open source (my code is not that good)
 
-made by aayush rajagopalan
+## Guide
 
-e - aditya menon
+## Layout
+

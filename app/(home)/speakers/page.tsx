@@ -1,5 +1,3 @@
-"use client";
-
 import Image from "next/image";
 
 export default function About() {
@@ -17,10 +15,7 @@ export default function About() {
                 </h1>
               </div>
             </div>
-            <section
-              id="learnmore"
-              className="w-full flex flex-col gap-y-16 pt-12"
-            >
+            <section className="w-full flex flex-col gap-y-16 pt-12">
               {/* speaker 1: ltr */}
               <div className="container px-4 md:px-6">
                 <div className="mx-auto grid max-w-5xl items-center gap-6 py-12 lg:grid-cols-2 lg:gap-10">
@@ -147,139 +142,7 @@ export default function About() {
                 </div>
               </div>
 
-              {/* speaker 3: ltr */}
-              {/* <div className="container px-4 md:px-6">
-                <div className="mx-auto grid max-w-5xl items-center gap-6 py-12 lg:grid-cols-2 lg:gap-10">
-                  <div className="flex flex-col justify-center space-y-4">
-                    <div className="grid gap-1">
-                      <h3 className="text-5xl pb-4 font-bold">
-                        Rithwick Varier
-                      </h3>
-                      <p className="text-neutral-500 dark:text-neutral-400">
-                        Rithwick Varier is a seasoned entrepreneur and
-                        technology consultant with over a decade of experience
-                        in healthcare and digital innovation. An alumnus of DPS
-                        MIS and the University of Illinois at Urbana-Champaign,
-                        he spent five years in Tampa, Florida, implementing the
-                        Affordable Care Act through technology consulting and
-                        systems optimization. He then dedicated another five
-                        years to startups, leading the development of
-                        cutting-edge, design-driven technology to make
-                        self-funded healthcare more accessible. As the founder
-                        of A-Gaido, a USA-based startup, he empowers businesses
-                        to embrace transformative digital solutions. A mentor,
-                        Toastmaster, and animal welfare advocate, Rithwick is an
-                        inspiring leader and engaging speaker.
-                      </p>
-                    </div>
-                  </div>
-                  <div>
-                    <div className="relative isolate">
-                      <div
-                        aria-hidden="true"
-                        className="pointer-events-none absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
-                      >
-                        <div
-                          style={{
-                            clipPath:
-                              "polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 59.06% 42.37%, 60.2% 62.4%, 52.4% 68.1%, 75.35% 52.12%, 40.8% 66.01%, 47.14% 77.13%, 52.97% 71.43%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"
-                          }}
-                          className="relative left-[calc(50%-1rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#fdfdfd] to-[#9a9a9a] opacity-30 sm:left-[calc(50%-1rem)] sm:w-[72.1875rem]"
-                        />
-                      </div>
-                      <Image
-                        src="https://cdn.aayus.me/tedx/speaker3.png"
-                        alt="speaker"
-                        width={1920}
-                        height={1080}
-                        quality={100}
-                        className="rounded-md bg-background shadow-2xl ring-1 ring-gray-900/10"
-                      />
-
-                      <div
-                        aria-hidden="true"
-                        className="pointer-events-none absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
-                      >
-                        <div
-                          style={{
-                            clipPath:
-                              "polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 40.67% 74.57%, 69.31% 76.41%, 74.1% 44.1%)",
-                          }}
-                          className="relative left-[calc(50%-1rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#fdfdfd] to-[#181818] opacity-30 sm:left-[calc(50%-1rem)] sm:w-[72.1875rem]"
-                        />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div> */}
-               {/* speaker 5: ltr */}
-               <div className="container px-4 md:px-6">
-                <div className="mx-auto grid max-w-5xl items-center gap-6 py-12 lg:grid-cols-2 lg:gap-10">
-                  <div className="flex flex-col justify-center space-y-4">
-                    <div className="grid gap-1">
-                      <h3 className="text-5xl pb-4 font-bold">
-                        Pratham Mittal
-                      </h3>
-                      <p className="text-neutral-500 dark:text-neutral-400">
-                        Pratham Mittal is a dynamic entrepreneur and educator,
-                        currently serving as the Founder of Tetr and
-                        Masters&apos; Union. Masters&apos; Union is a unique
-                        higher education institution where courses are taught by
-                        industry leaders from top companies like Morgan Stanley,
-                        Tata, StanChart, Google, and more. The institution has
-                        successfully placed students in prestigious firms such
-                        as McKinsey, BCG, Bain, and Softbank. Before founding
-                        Masters&apos; Union, Pratham co-founded Outgrow.co, an
-                        interactive content platform used by top agencies and
-                        Fortune 500 companies. His innovative approach to
-                        education and business has made significant impacts in
-                        both fields, demonstrating his commitment to bridging
-                        the gap between academia and industry.
-                      </p>
-                    </div>
-                  </div>
-                  <div>
-                    <div className="relative isolate">
-                      <div
-                        aria-hidden="true"
-                        className="pointer-events-none absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
-                      >
-                        <div
-                          style={{
-                            clipPath:
-                              "polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 67.88% 50.66%, 43.41% 50.81%, 27.5% 76.7%, 60.06% 71.17%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"
-                          }}
-                          className="relative left-[calc(50%-1rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#bdc2bc] to-[#999f93] opacity-30 sm:left-[calc(50%-1rem)] sm:w-[72.1875rem]"
-                        />
-                      </div>
-                      <Image
-                        src="https://cdn.aayus.me/tedx/speaker5.png"
-                        alt="speaker"
-                        width={1920}
-                        height={1080}
-                        quality={100}
-                        className="rounded-md bg-background shadow-2xl ring-1 ring-gray-900/10"
-                      />
-
-                      <div
-                        aria-hidden="true"
-                        className="pointer-events-none absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
-                      >
-                        <div
-                          style={{
-                            clipPath:
-                              "polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)",
-                          }}
-                          className="relative left-[calc(50%-1rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#f83b39] to-[#d7ded7] opacity-30 sm:left-[calc(50%-1rem)] sm:w-[72.1875rem]"
-                        />
-                      </div>
-                    </div>
-                  </div>
-
-                </div>
-              </div>
-
-              {/* speaker 4: rtl */}
+              {/* speaker 3: rtl */}
               <div className="container px-4 md:px-6">
                 <div className="mx-auto grid max-w-5xl items-center gap-6 py-12 lg:grid-cols-2 lg:gap-10">
                   <div>
@@ -341,9 +204,10 @@ export default function About() {
                 </div>
               </div>
 
+              {/* speaker 4: ltr */}
               <div className="container px-4 md:px-6">
                 <div className="mx-auto grid max-w-5xl items-center gap-6 py-12 lg:grid-cols-2 lg:gap-10">
-                <div className="flex flex-col justify-center space-y-4">
+                  <div className="flex flex-col justify-center space-y-4">
                     <div className="grid gap-1">
                       <h3 className="text-5xl pb-4 font-bold">
                         Mohammed Al-Qassabi
@@ -368,8 +232,8 @@ export default function About() {
                       </p>
                     </div>
                   </div>
-                  
-                <div>
+
+                  <div>
                     <div className="relative isolate">
                       <div
                         aria-hidden="true"
@@ -406,15 +270,15 @@ export default function About() {
                       </div>
                     </div>
                   </div>
-                
+
 
                 </div>
               </div>
 
-              {/* speaker 6: rtl */}
+              {/* speaker 5: rtl */}
               <div className="container px-4 md:px-6">
                 <div className="mx-auto grid max-w-5xl items-center gap-6 py-12 lg:grid-cols-2 lg:gap-10">
-                <div>
+                  <div>
                     <div className="relative isolate">
                       <div
                         aria-hidden="true"
@@ -473,13 +337,9 @@ export default function About() {
                       </p>
                     </div>
                   </div>
-                
+
                 </div>
               </div>
-
-              {/* speaker 7: ltr */}
-             
-
             </section>
           </div>
         </div>

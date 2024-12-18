@@ -4,19 +4,12 @@ import { ArrowRight, Menu } from "lucide-react";
 import {
   Sheet,
   SheetContent,
-  SheetDescription,
   SheetHeader,
-  SheetTitle,
   SheetTrigger,
 } from "./ui/sheet";
-import { HoveredLink, MenuItem, MobileMenu, ProductItem } from "./navbar";
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { useState } from "react";
 import Link from "next/link";
-import Image from "next/image";
-import Contact from "./contact";
-import { FaFacebook, FaInstagram } from "react-icons/fa";
-import { ThemeToggle } from "./theme-toggle";
+import { FaInstagram } from "react-icons/fa";
 import { buttonVariants } from "./ui/button";
 
 const MobileNav = () => {

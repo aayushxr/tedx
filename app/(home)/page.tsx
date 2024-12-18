@@ -1,4 +1,9 @@
+// The main landing page, showcasing the theme of the event and providing links to register 
+// https://tedxyouthdpsmis.com/
+
+// Marked as a Client Component to enable client-side rendering
 "use client";
+
 import Ex from "@/components/ex";
 import ScrambleText from "@/components/scramble";
 import { buttonVariants } from "@/components/ui/button";
@@ -6,6 +11,8 @@ import { ArrowRight } from "lucide-react";
 import Link from "next/link";
 
 export default function LandingPage() {
+  // Assert Dominance
+
   console.log(
     "%c Made by Aayush Rajagopalan ",
     "color:white; padding: 2px 4px; border-radius: 4px; background-color: #dc2626",
@@ -26,6 +33,8 @@ export default function LandingPage() {
     "color:white; padding: 2px 4px; border-radius: 4px; background-color: #22d3ee",
     "'Life is Roblox' - Aayush Rajagopalan, 2024"
   );
+
+
   return (
     <>
       <main className="justify-center md:h-[100vh] items-center flex-col">
@@ -33,6 +42,7 @@ export default function LandingPage() {
           <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black bg-zinc-300 [mask-image:radial-gradient(ellipse_at_center,transparent_30%,white)]"></div>
           <div className="flex items-center px-5 justify-center z-20  max-w-6xl">
             <div className=" flex flex-col items-center">
+              {/* red radial gradiant background */}
               <div
                 aria-hidden="true"
                 className="pointer-events-none absolute inset-x-0 -top-[-17rem] z-0 transform-gpu overflow-hidden blur-3xl sm:top-[17rem]"

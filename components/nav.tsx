@@ -1,17 +1,12 @@
 "use client";
 
 import Link from "next/link";
-import { Button, buttonVariants } from "./ui/button";
-import { ArrowRight, Feather, Info } from "lucide-react";
-import Image from "next/image";
-import { FaFacebook, FaInstagram, FaSpotify, FaYoutube } from "react-icons/fa";
-import { HoveredLink, Menu, MenuItem, ProductItem } from "./navbar";
-import { Suspense, useEffect, useState } from "react";
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { ThemeToggle } from "./theme-toggle";
-import Contact from "./contact";
+import { buttonVariants } from "./ui/button";
+import { ArrowRight } from "lucide-react";
+import { FaInstagram } from "react-icons/fa";
+import { HoveredLink, Menu, MenuItem} from "./navbar";
+import { useEffect, useState } from "react";
 import MobileNav from "./mobile-nav";
-import { toast } from "sonner";
 
 const LandingNavbar = () => {
   const [active, setActive] = useState<string | null>(null);
@@ -51,23 +46,7 @@ const LandingNavbar = () => {
    <HoveredLink href="/editions">Previous Editions</HoveredLink> 
                 </div>
               </MenuItem>
-{/* <Link href="/editions">Previous Editions</Link>*/}
               <Link href="/speakers">Speakers</Link> 
-              {/* <Link href="/speakers">
-                <MenuItem setActive={setActive} active={active} item="Speakers">
-                  <div className="flex flex-col space-y-4 text-sm">
-                    <HoveredLink href="/references/briefings">
-                      Resources
-                    </HoveredLink>
-                    <HoveredLink href="/references/samples">
-                      Sample Debates
-                    </HoveredLink>
-                    <HoveredLink href="/references">
-                      Other References
-                    </HoveredLink>
-                  </div>
-                </MenuItem>
-              </Link> */}
             </Menu>
           </div>
 
@@ -82,17 +61,7 @@ const LandingNavbar = () => {
               >
                 <FaInstagram className="h-4 w-4" />
               </Link>
-              {/* <Link
-                href="https://aayus.me/wwdc_fb"
-                className={buttonVariants({
-                  variant: "ghost",
-                  size: "sm",
-                })}
-              >
-                <FaFacebook className="h-4 w-4" />
-              </Link> */}
             </div>
-            {/* <Contact /> */}
             <Link
               className={buttonVariants({
                 size: "sm",
