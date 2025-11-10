@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     siteName: "TedxYouth@DPSMIS",
     images: [
       {
-        url: "https://cdn.aayus.me/tedx/og.png",
+        url: "https://cdn.aayu.sh/tedx/og.png",
         width: 1200,
         height: 630,
         alt: "TedxYouth@DPSMIS - Beyond Algorithms",
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
     description:
       "The 10th edition of TedxYouth@DPSMIS, celebrating a decade of inspiring ideas and transformative stories that push boundaries and spark change.",
     images: [
-      "https://cdn.aayus.me/tedx/og.png",
+      "https://cdn.aayu.sh/tedx/og.png",
     ],
   },
   icons: {

@@ -36,7 +36,7 @@ const MobileNav = () => {
                 <>
                   <div className="space-x-1 flex items-center justify-center">
                     <Link
-                      href="https://aayus.me/tedx_insta"
+                      href="https://aayu.sh/tedx_insta"
                       className={buttonVariants({
                         variant: "ghost",
                         size: "sm",

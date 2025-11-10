@@ -53,7 +53,7 @@ const LandingNavbar = () => {
           <div className="hidden justify-end items-center space-x-4 sm:flex">
             <div className="space-x-1  flex items-center justify-center">
               <Link
-                href="https://aayus.me/tedx_insta"
+                href="https://aayu.sh/tedx_insta"
                 className={buttonVariants({
                   variant: "ghost",
                   size: "sm",

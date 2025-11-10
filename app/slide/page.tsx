@@ -43,7 +43,7 @@ export default function LandingPage() {
                 />
               </h1>
               <Image
-                src="https://cdn.aayus.me/tedx/white.png"
+                src="https://cdn.aayu.sh/tedx/white.png"
                 width={800}
                 height={200}
                 alt="logo"

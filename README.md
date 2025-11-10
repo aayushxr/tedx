@@ -1,6 +1,6 @@
 # The Website for the 10th Edition of TEDxYouth@DPSMIS
 
-![Site Image](https://cdn.aayus.me/tedx/screenshot.jpeg)
+![Site Image](https://cdn.aayu.sh/tedx/screenshot.jpeg)
 
 This is the official website for the 10th edition of TEDxYouth@DPSMIS, showcasing event details, speaker information, and more.
 

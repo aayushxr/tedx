@@ -55,7 +55,7 @@ export default function About() {
                         />
                       </div>
                       <Image
-                        src="https://cdn.aayus.me/tedx/speaker1"
+                        src="https://cdn.aayu.sh/tedx/speaker1"
                         alt="speaker"
                         width={1920}
                         height={1080}
@@ -98,7 +98,7 @@ export default function About() {
                         />
                       </div>
                       <Image
-                        src="https://cdn.aayus.me/tedx/speaker2.png"
+                        src="https://cdn.aayu.sh/tedx/speaker2.png"
                         alt="speaker"
                         width={1920}
                         height={1080}
@@ -160,7 +160,7 @@ export default function About() {
                         />
                       </div>
                       <Image
-                        src="https://cdn.aayus.me/tedx/speaker4.png"
+                        src="https://cdn.aayu.sh/tedx/speaker4.png"
                         alt="speaker"
                         width={1920}
                         height={1080}
@@ -239,7 +239,7 @@ export default function About() {
                         />
                       </div>
                       <Image
-                        src="https://cdn.aayus.me/tedx/speaker7.png"
+                        src="https://cdn.aayu.sh/tedx/speaker7.png"
                         alt="speaker"
                         width={1920}
                         height={1080}
@@ -284,7 +284,7 @@ export default function About() {
                         />
                       </div>
                       <Image
-                        src="https://cdn.aayus.me/tedx/speaker6.png"
+                        src="https://cdn.aayu.sh/tedx/speaker6.png"
                         alt="speaker"
                         width={1920}
                         height={1080}
